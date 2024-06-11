@@ -1,0 +1,9 @@
+INFO:snowflake.connector.connection:Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+INFO:snowflake.connector.connection:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+INFO:root:Connected to Snowflake successfully.
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:root:Table EMPLOYEE created successfully.
+ERROR:root:Error ingesting data from file C:\Users\nikhi\Downloads\AVM_Project\inbound_data\employee.txt to table EMPLOYEE: 000904 (42000): 01b4e8c9-0001-e206-0005-d4ce0003212a: SQL compilation error: error line 1 at position 118
+invalid identifier 'NAN'
+INFO:snowflake.connector.connection:closed
+INFO:snowflake.connector.connection:No async queries seem to be running, deleting session

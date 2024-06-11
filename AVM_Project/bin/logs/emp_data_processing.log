@@ -1,0 +1,280 @@
+2024-06-10 11:36:07,964 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:36:07,964 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:36:09,893 - INFO: Number of results in first chunk: 21
+2024-06-10 11:36:09,893 - INFO: closed
+2024-06-10 11:36:09,972 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:36:10,176 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:36:10,176 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:36:11,446 - ERROR: Error transforming data: 090106 (22000): 01b4eb64-0001-e203-0005-d4ce0002e19a: Cannot perform CREATE TEMPTABLE. This session does not have a current schema. Call 'USE SCHEMA', or use a qualified name.
+2024-06-10 11:36:11,446 - INFO: closed
+2024-06-10 11:36:11,525 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:40:26,484 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:40:26,484 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:40:27,868 - INFO: Number of results in first chunk: 1
+2024-06-10 11:40:28,136 - INFO: Number of results in first chunk: 21
+2024-06-10 11:40:28,136 - INFO: closed
+2024-06-10 11:40:28,215 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:40:28,302 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:40:28,304 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:40:29,469 - INFO: Number of results in first chunk: 1
+2024-06-10 11:40:29,705 - INFO: Number of results in first chunk: 1
+2024-06-10 11:40:30,290 - INFO: Number of results in first chunk: 1
+2024-06-10 11:40:30,431 - ERROR: Error transforming data: 002003 (42S02): 01b4eb68-0001-e203-0005-d4ce0002e1a6: SQL compilation error:
+Table 'P01_EMP.EMP_PROC.PROCESSED_WORKS_ON' does not exist or not authorized.
+2024-06-10 11:40:30,431 - INFO: closed
+2024-06-10 11:40:30,495 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:44:54,356 - INFO: Starting data transformation and loading process.
+2024-06-10 11:44:54,356 - INFO: Transforming and loading data into emp_sal_greater_mngr
+2024-06-10 11:44:54,356 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:44:54,356 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:44:56,188 - ERROR: Error executing query: 000904 (42000): 01b4eb6c-0001-e208-0005-d4ce00031152: SQL compilation error: error line 2 at position 19
+invalid identifier 'E1.EMPLOYEE_ID'
+2024-06-10 11:44:56,188 - INFO: closed
+2024-06-10 11:44:56,250 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:44:56,345 - INFO: Transforming and loading data into emp_project_dept
+2024-06-10 11:44:56,345 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:44:56,345 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:44:57,467 - ERROR: Error executing query: 000904 (42000): 01b4eb6c-0001-e1fe-0005-d4ce00030172: SQL compilation error: error line 2 at position 19
+invalid identifier 'P.PROJECT_ID'
+2024-06-10 11:44:57,467 - INFO: closed
+2024-06-10 11:44:57,546 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:44:57,625 - INFO: Transforming and loading data into emp_dept_least
+2024-06-10 11:44:57,625 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:44:57,625 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:44:58,782 - ERROR: Error executing query: 000904 (42000): 01b4eb6c-0001-e205-0005-d4ce0003514a: SQL compilation error: error line 2 at position 19
+invalid identifier 'D.DEPARTMENT_NAME'
+2024-06-10 11:44:58,782 - INFO: closed
+2024-06-10 11:44:58,856 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:44:58,950 - INFO: Transforming and loading data into emp_tot_hrs_spent
+2024-06-10 11:44:58,950 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:44:58,950 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:45:00,050 - ERROR: Error executing query: 000904 (42000): 01b4eb6d-0001-e204-0005-d4ce0002f14a: SQL compilation error: error line 2 at position 19
+invalid identifier 'E.EMPLOYEE_ID'
+2024-06-10 11:45:00,050 - INFO: closed
+2024-06-10 11:45:00,129 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:45:00,224 - INFO: Transforming and loading data into emp_full_details
+2024-06-10 11:45:00,224 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:45:00,224 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:45:01,369 - ERROR: Error executing query: 000904 (42000): 01b4eb6d-0001-e205-0005-d4ce0003514e: SQL compilation error: error line 2 at position 19
+invalid identifier 'E.EMPLOYEE_ID'
+2024-06-10 11:45:01,369 - INFO: closed
+2024-06-10 11:45:01,464 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:45:01,543 - INFO: Exporting data from emp_sal_greater_mngr
+2024-06-10 11:45:01,543 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:45:01,543 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:45:02,912 - INFO: Number of results in first chunk: 0
+2024-06-10 11:45:02,930 - INFO: closed
+2024-06-10 11:45:03,010 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:45:03,313 - INFO: Data exported to output\emp_sal_greater_mngr.txt successfully!
+2024-06-10 11:45:03,313 - INFO: Exporting data from emp_project_dept
+2024-06-10 11:45:03,313 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:45:03,313 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:45:04,947 - INFO: Number of results in first chunk: 0
+2024-06-10 11:45:04,947 - INFO: closed
+2024-06-10 11:45:05,153 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:45:05,356 - INFO: Data exported to output\emp_project_dept.txt successfully!
+2024-06-10 11:45:05,356 - INFO: Exporting data from emp_dept_least
+2024-06-10 11:45:05,356 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:45:05,356 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:45:06,990 - INFO: Number of results in first chunk: 0
+2024-06-10 11:45:06,990 - INFO: closed
+2024-06-10 11:45:07,068 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:45:07,204 - INFO: Data exported to output\emp_dept_least.txt successfully!
+2024-06-10 11:45:07,204 - INFO: Exporting data from emp_tot_hrs_spent
+2024-06-10 11:45:07,204 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:45:07,204 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:45:08,785 - INFO: Number of results in first chunk: 0
+2024-06-10 11:45:08,801 - INFO: closed
+2024-06-10 11:45:09,022 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:45:09,117 - INFO: Data exported to output\emp_tot_hrs_spent.txt successfully!
+2024-06-10 11:45:09,117 - INFO: Exporting data from emp_full_details
+2024-06-10 11:45:09,117 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:45:09,117 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:45:10,985 - INFO: Number of results in first chunk: 0
+2024-06-10 11:45:10,985 - INFO: closed
+2024-06-10 11:45:11,064 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:45:11,158 - INFO: Data exported to output\emp_full_details.txt successfully!
+2024-06-10 11:45:11,158 - INFO: Data transformation, loading, and export process completed.
+2024-06-10 11:47:13,417 - INFO: Starting data transformation and loading process.
+2024-06-10 11:47:13,417 - INFO: Transforming and loading data into emp_sal_greater_mngr
+2024-06-10 11:47:13,417 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:47:13,417 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:47:15,035 - ERROR: Error executing query: 
+            CREATE OR REPLACE TABLE EMP_PROC.emp_sal_greater_mngr AS
+            SELECT E1.EMP_ID, E1.FIRST_NAME, E1.LAST_NAME, E1.SALARY
+            FROM EMP_RAW.EMPLOYEE E1
+            JOIN EMP_RAW.EMPLOYEE E2 ON E1.MANAGER_ID = E2.EMP_ID
+            WHERE E1.SALARY > E2.SALARY
+        
+Exception: 000904 (42000): 01b4eb6f-0001-e209-0005-d4ce0003316e: SQL compilation error: error line 2 at position 19
+invalid identifier 'E1.EMP_ID'
+2024-06-10 11:47:15,035 - INFO: closed
+2024-06-10 11:47:15,114 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:47:15,208 - INFO: Transforming and loading data into emp_project_dept
+2024-06-10 11:47:15,208 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:47:15,208 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:47:16,505 - ERROR: Error executing query: 
+            CREATE OR REPLACE TABLE EMP_PROC.emp_project_dept AS
+            SELECT P.PROJ_ID, P.PROJ_NAME, D.DEPT_NAME
+            FROM EMP_RAW.PROJECT P
+            JOIN EMP_RAW.DEPARTMENT D ON P.DEPT_ID = D.DEPT_ID
+        
+Exception: 000904 (42000): 01b4eb6f-0001-e204-0005-d4ce0002f16e: SQL compilation error: error line 2 at position 19
+invalid identifier 'P.PROJ_ID'
+2024-06-10 11:47:16,505 - INFO: closed
+2024-06-10 11:47:16,586 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:47:16,678 - INFO: Transforming and loading data into emp_dept_least
+2024-06-10 11:47:16,678 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:47:16,678 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:47:17,929 - ERROR: Error executing query: 
+            CREATE OR REPLACE TABLE EMP_PROC.emp_dept_least AS
+            SELECT D.DEPT_NAME, COUNT(E.EMP_ID) AS EMP_COUNT
+            FROM EMP_RAW.EMPLOYEE E
+            JOIN EMP_RAW.DEPARTMENT D ON E.DEPT_ID = D.DEPT_ID
+            GROUP BY D.DEPT_NAME
+            ORDER BY EMP_COUNT ASC
+            LIMIT 1
+        
+Exception: 000904 (42000): 01b4eb6f-0001-e201-0005-d4ce0002d1b2: SQL compilation error: error line 2 at position 19
+invalid identifier 'D.DEPT_NAME'
+2024-06-10 11:47:17,929 - INFO: closed
+2024-06-10 11:47:18,008 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:47:18,102 - INFO: Transforming and loading data into emp_tot_hrs_spent
+2024-06-10 11:47:18,102 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:47:18,102 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:47:19,307 - ERROR: Error executing query: 
+            CREATE OR REPLACE TABLE EMP_PROC.emp_tot_hrs_spent AS
+            SELECT E.EMP_ID, E.FIRST_NAME, E.LAST_NAME, SUM(W.HOURS) AS TOTAL_HOURS
+            FROM EMP_RAW.EMPLOYEE E
+            JOIN EMP_RAW.WORKS_ON W ON E.EMP_ID = W.EMP_ID
+            GROUP BY E.EMP_ID, E.FIRST_NAME, E.LAST_NAME
+        
+Exception: 000904 (42000): 01b4eb6f-0001-e1fe-0005-d4ce000301a6: SQL compilation error: error line 2 at position 19
+invalid identifier 'E.EMP_ID'
+2024-06-10 11:47:19,307 - INFO: closed
+2024-06-10 11:47:19,385 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:47:19,465 - INFO: Transforming and loading data into emp_full_details
+2024-06-10 11:47:19,465 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:47:19,465 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:47:20,706 - ERROR: Error executing query: 
+            CREATE OR REPLACE TABLE EMP_PROC.emp_full_details AS
+            SELECT E.EMP_ID, E.FIRST_NAME, E.LAST_NAME, E.SALARY, D.DEPT_NAME, P.PROJ_NAME, W.HOURS
+            FROM EMP_RAW.EMPLOYEE E
+            JOIN EMP_RAW.DEPARTMENT D ON E.DEPT_ID = D.DEPT_ID
+            JOIN EMP_RAW.WORKS_ON W ON E.EMP_ID = W.EMP_ID
+            JOIN EMP_RAW.PROJECT P ON W.PROJ_ID = P.PROJ_ID
+        
+Exception: 000904 (42000): 01b4eb6f-0001-e200-0005-d4ce0003419e: SQL compilation error: error line 2 at position 19
+invalid identifier 'E.EMP_ID'
+2024-06-10 11:47:20,706 - INFO: closed
+2024-06-10 11:47:20,789 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:47:20,880 - INFO: Exporting data from emp_sal_greater_mngr
+2024-06-10 11:47:20,880 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:47:20,880 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:47:22,450 - INFO: Number of results in first chunk: 0
+2024-06-10 11:47:22,466 - INFO: closed
+2024-06-10 11:47:22,529 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:47:22,624 - ERROR: No data found in emp_sal_greater_mngr for export.
+2024-06-10 11:47:22,624 - INFO: Exporting data from emp_project_dept
+2024-06-10 11:47:22,624 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:47:22,639 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:47:23,914 - INFO: Number of results in first chunk: 0
+2024-06-10 11:47:23,914 - INFO: closed
+2024-06-10 11:47:23,995 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:47:24,088 - ERROR: No data found in emp_project_dept for export.
+2024-06-10 11:47:24,088 - INFO: Exporting data from emp_dept_least
+2024-06-10 11:47:24,088 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:47:24,088 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:47:25,721 - INFO: Number of results in first chunk: 0
+2024-06-10 11:47:25,736 - INFO: closed
+2024-06-10 11:47:25,831 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:47:25,909 - ERROR: No data found in emp_dept_least for export.
+2024-06-10 11:47:25,909 - INFO: Exporting data from emp_tot_hrs_spent
+2024-06-10 11:47:25,909 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:47:25,909 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:47:27,211 - INFO: Number of results in first chunk: 0
+2024-06-10 11:47:27,227 - INFO: closed
+2024-06-10 11:47:27,290 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:47:27,572 - ERROR: No data found in emp_tot_hrs_spent for export.
+2024-06-10 11:47:27,572 - INFO: Exporting data from emp_full_details
+2024-06-10 11:47:27,572 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:47:27,572 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:47:29,049 - INFO: Number of results in first chunk: 0
+2024-06-10 11:47:29,049 - INFO: closed
+2024-06-10 11:47:29,127 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:47:29,214 - ERROR: No data found in emp_full_details for export.
+2024-06-10 11:47:29,214 - INFO: Data transformation, loading, and export process completed.
+2024-06-10 16:28:44,107 - INFO - Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 16:28:44,107 - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 16:28:45,445 - INFO - Connected to Snowflake successfully.
+2024-06-10 16:28:45,588 - INFO - Number of results in first chunk: 1
+2024-06-10 16:28:45,588 - INFO - Executed query: CREATE SCHEMA IF NOT EXISTS EMP_PROC
+2024-06-10 16:28:45,745 - INFO - Number of results in first chunk: 1
+2024-06-10 16:28:47,525 - INFO - Number of results in first chunk: 1
+2024-06-10 16:28:47,525 - INFO - Executed query: 
+                CREATE OR REPLACE TABLE emp_sal_greater_mngr AS
+                SELECT e1.essn, e1.salary, e1.super_ssn, e2.salary AS mgr_salary
+                FROM EMP_RAW.EMPLOYEE e1
+                JOIN EMP_RAW.EMPLOYEE e2 ON e1.super_ssn = e2.essn
+                WHERE e1.salary > e2.salary;
+            
+2024-06-10 16:28:47,967 - INFO - Number of results in first chunk: 1
+2024-06-10 16:28:47,967 - INFO - Executed query: SELECT * FROM emp_sal_greater_mngr
+2024-06-10 16:28:47,967 - INFO - Report generated: emp_sal_greater_mngr.txt
+2024-06-10 16:28:49,984 - INFO - Number of results in first chunk: 1
+2024-06-10 16:28:49,984 - INFO - Executed query: 
+                CREATE OR REPLACE TABLE emp_project_dept AS
+                SELECT e.essn, p.pname, d1.dname AS emp_dept_name, d2.dname AS proj_dept_name
+                FROM EMP_RAW.EMPLOYEE e
+                JOIN EMP_RAW.DEPARTMENT d1 ON e.dno = d1.dnumber
+                JOIN EMP_RAW.WORKS_ON w ON e.essn = w.essn
+                JOIN EMP_RAW.PROJECT p ON w.pno = p.pnumber
+                JOIN EMP_RAW.DEPARTMENT d2 ON p.dnum = d2.dnumber
+                WHERE e.dno != p.dnum;
+            
+2024-06-10 16:28:50,596 - INFO - Number of results in first chunk: 11
+2024-06-10 16:28:50,596 - INFO - Executed query: SELECT * FROM emp_project_dept
+2024-06-10 16:28:50,596 - INFO - Report generated: emp_project_dept.txt
+2024-06-10 16:28:51,620 - INFO - Number of results in first chunk: 1
+2024-06-10 16:28:51,620 - INFO - Executed query: 
+                CREATE OR REPLACE TABLE emp_dept_least AS
+                SELECT d.dname, d.dnumber, COUNT(e.essn) AS no_of_emp
+                FROM EMP_RAW.DEPARTMENT d
+                LEFT JOIN EMP_RAW.EMPLOYEE e ON d.dnumber = e.dno
+                GROUP BY d.dname, d.dnumber
+                ORDER BY no_of_emp ASC
+                LIMIT 1;
+            
+2024-06-10 16:28:51,746 - INFO - Number of results in first chunk: 1
+2024-06-10 16:28:51,746 - INFO - Executed query: SELECT * FROM emp_dept_least
+2024-06-10 16:28:51,746 - INFO - Report generated: emp_dept_least.txt
+2024-06-10 16:28:54,067 - INFO - Number of results in first chunk: 1
+2024-06-10 16:28:54,067 - INFO - Executed query: 
+                CREATE OR REPLACE TABLE emp_tot_hrs_spent AS
+                SELECT e.essn, d.dependent_name, w.pno, SUM(w.hours) AS total_hours_spent
+                FROM EMP_RAW.EMPLOYEE e
+                JOIN EMP_RAW.DEPENDENT d ON e.essn = d.essn
+                JOIN EMP_RAW.WORKS_ON w ON e.essn = w.essn
+                GROUP BY e.essn, d.dependent_name, w.pno;
+            
+2024-06-10 16:28:54,700 - INFO - Number of results in first chunk: 26
+2024-06-10 16:28:54,700 - INFO - Executed query: SELECT * FROM emp_tot_hrs_spent
+2024-06-10 16:28:54,700 - INFO - Report generated: emp_tot_hrs_spent.txt
+2024-06-10 16:28:55,914 - INFO - Number of results in first chunk: 1
+2024-06-10 16:28:55,914 - INFO - Executed query: 
+                CREATE OR REPLACE TABLE emp_full_details AS
+                SELECT 
+                    e.*, d.dname, p.pname, p.pnumber, p.plocation, w.hours AS total_hours,
+                    de.dependent_name, de.sex AS dependent_sex, de.relationship AS dependent_relation
+                FROM P01_EMP.EMP_RAW.EMPLOYEE e
+                JOIN P01_EMP.EMP_RAW.DEPARTMENT d ON e.dno = d.dnumber
+                JOIN P01_EMP.EMP_RAW.WORKS_ON w ON e.essn = w.essn
+                JOIN P01_EMP.EMP_RAW.PROJECT p ON w.pno = p.pnumber
+                LEFT JOIN P01_EMP.EMP_RAW.DEPENDENT de ON e.essn = de.essn;
+            
+2024-06-10 16:28:56,527 - INFO - Number of results in first chunk: 43
+2024-06-10 16:28:56,527 - INFO - Executed query: SELECT * FROM emp_full_details
+2024-06-10 16:28:56,543 - INFO - Report generated: emp_full_details.txt
+2024-06-10 16:28:56,543 - INFO - closed
+2024-06-10 16:28:56,622 - INFO - No async queries seem to be running, deleting session
+2024-06-10 16:28:56,716 - INFO - Connection closed

@@ -1,0 +1,647 @@
+2024-06-09 22:25:37,841 - INFO: DataFrame Head:
+2024-06-09 22:25:37,841 - INFO:            0  1      2
+0  123456789  1   32.5
+1  123456789  2    7.5
+2  666884444  3   40.0
+3  453453453  1   20.0
+4  453453453  2   20.0
+2024-06-09 22:25:37,841 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 22:25:37,841 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 22:25:39,387 - ERROR: Error ingesting data into WORKS_ON: 100038 (22018): 01b4e84d-0001-e1ff-0005-d4ce00036072: Numeric value 'NULL' is not recognized
+2024-06-09 22:25:39,387 - INFO: closed
+2024-06-09 22:25:39,395 - INFO: No async queries seem to be running, deleting session
+2024-06-09 22:28:53,587 - INFO: DataFrame Head:
+2024-06-09 22:28:53,587 - INFO:            0  1     2
+0  123456789  1  32.5
+1  123456789  2   7.5
+2  666884444  3  40.0
+3  453453453  1  20.0
+4  453453453  2  20.0
+2024-06-09 22:28:53,603 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 22:28:53,603 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 22:28:54,718 - ERROR: Error ingesting data into WORKS_ON: 000904 (42000): 01b4e850-0001-e203-0005-d4ce0002e0ca: SQL compilation error: error line 1 at position 397
+invalid identifier 'NAN'
+2024-06-09 22:28:54,718 - INFO: closed
+2024-06-09 22:28:54,718 - INFO: No async queries seem to be running, deleting session
+2024-06-09 22:33:47,848 - INFO: DataFrame Head:
+2024-06-09 22:33:47,848 - INFO:     0                1          2  3
+0   1         ProductX   Bellaire  5
+1   2         ProductY  Sugarland  5
+2   3         ProductZ    Houston  5
+3  10  Computerization   Stafford  4
+4  20   Reorganization    Houston  1
+2024-06-09 22:33:47,848 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 22:33:47,848 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 22:33:49,793 - INFO: Number of results in first chunk: 1
+2024-06-09 22:33:49,793 - INFO: Data ingestion successful!
+2024-06-09 22:33:49,793 - INFO: closed
+2024-06-09 22:33:49,793 - INFO: No async queries seem to be running, deleting session
+2024-06-09 22:36:22,597 - INFO: DataFrame Head:
+2024-06-09 22:36:22,597 - INFO:            0          1   2            3          4
+0  333445555      Alice   F   1986-04-05   Daughter
+1  333445555   Theodore   M   1983-04-05        Son
+2  333445555        Joy   F   1958-04-05     Spouse
+3  987654321      Abner   M   1942-04-05     Spouse
+4  123456789    Michael   M   1988-04-05        Son
+2024-06-09 22:36:22,597 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 22:36:22,597 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 22:36:25,641 - ERROR: Error ingesting data into DEPENDENT: 100078 (22000): None: String ' F' is too long and would be truncated
+2024-06-09 22:36:25,641 - INFO: closed
+2024-06-09 22:36:25,641 - INFO: No async queries seem to be running, deleting session
+2024-06-09 22:39:05,050 - INFO: DataFrame Head:
+2024-06-09 22:39:05,050 - INFO:            0         1  2           3         4
+0  333445555     Alice  F  1986-04-05  Daughter
+1  333445555  Theodore  M  1983-04-05       Son
+2  333445555       Joy  F  1958-04-05    Spouse
+3  987654321     Abner  M  1942-04-05    Spouse
+4  123456789   Michael  M  1988-04-05       Son
+2024-06-09 22:39:05,050 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 22:39:05,050 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 22:39:06,652 - INFO: Number of results in first chunk: 1
+2024-06-09 22:39:06,652 - INFO: Data ingestion successful!
+2024-06-09 22:39:06,652 - INFO: closed
+2024-06-09 22:39:06,652 - INFO: No async queries seem to be running, deleting session
+2024-06-09 22:40:25,752 - INFO: DataFrame Head:
+2024-06-09 22:40:25,752 - INFO:    0           1
+0  1     Houston
+1  4    Stafford
+2  5    Bellaire
+3  5   Sugarland
+4  5     Houston
+2024-06-09 22:40:25,752 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 22:40:25,752 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 22:40:27,716 - INFO: Number of results in first chunk: 1
+2024-06-09 22:40:27,716 - INFO: Data ingestion successful!
+2024-06-09 22:40:27,716 - INFO: closed
+2024-06-09 22:40:27,716 - INFO: No async queries seem to be running, deleting session
+2024-06-09 22:42:36,919 - INFO: DataFrame Head:
+2024-06-09 22:42:36,919 - INFO:          0  1        2          3           4             5          6    7  8      9            10  11
+0      John  B    Smith  123456789  1965-01-09   731 Fondren    Houston   TX  M  30000  333445555.0   5
+1  Franklin  T     Wong  333445555  1955-01-09      638 Voss    Houston   TX  M  40000  888665555.0   5
+2    Alicia  J   Zelaya  999887777  1968-01-09   3321 Castle     Spring   TX  F  25000  987654321.0   4
+3  Jennifer  S  Wallace  987654321  1941-01-09     291 Berry   Bellaire   TX  F  43000  888665555.0   4
+4    Ramesh  K  Narayan  666884444  1962-01-09  975 Fire Oak     Humble   TX  M  38000  333445555.0   5
+2024-06-09 22:42:36,934 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 22:42:36,934 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 22:42:38,034 - ERROR: Error ingesting data into EMPLOYEE: 002020 (21S01): 01b4e85e-0001-e201-0005-d4ce0002d0d6: SQL compilation error:
+Insert value list does not match column list expecting 10 but got 12
+2024-06-09 22:42:38,034 - INFO: closed
+2024-06-09 22:42:38,034 - INFO: No async queries seem to be running, deleting session
+2024-06-09 22:47:15,225 - INFO: DataFrame Head:
+2024-06-09 22:47:15,225 - INFO:           0  1        2          3           4                       5  6      7            8  9
+0      John  B    Smith  123456789  1965-01-09  731 Fondren Houston TX  M  30000  333445555.0  5
+1  Franklin  T     Wong  333445555  1955-01-09     638 Voss Houston TX  M  40000  888665555.0  5
+2    Alicia  J   Zelaya  999887777  1968-01-09   3321 Castle Spring TX  F  25000  987654321.0  4
+3  Jennifer  S  Wallace  987654321  1941-01-09   291 Berry Bellaire TX  F  43000  888665555.0  4
+4    Ramesh  K  Narayan  666884444  1962-01-09  975 Fire Oak Humble TX  M  38000  333445555.0  5
+2024-06-09 22:47:15,241 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 22:47:15,241 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 22:47:16,386 - ERROR: Error ingesting data into EMPLOYEE: 000904 (42000): 01b4e863-0001-e206-0005-d4ce000320d6: SQL compilation error: error line 1 at position 768
+invalid identifier 'NAN'
+2024-06-09 22:47:16,386 - INFO: closed
+2024-06-09 22:47:16,386 - INFO: No async queries seem to be running, deleting session
+2024-06-09 22:49:25,123 - INFO: DataFrame Head:
+2024-06-09 22:49:25,123 - INFO:           0  1        2          3           4                       5  6      7          8  9
+0      John  B    Smith  123456789  1965-01-09  731 Fondren Houston TX  M  30000  333445555  5
+1  Franklin  T     Wong  333445555  1955-01-09     638 Voss Houston TX  M  40000  888665555  5
+2    Alicia  J   Zelaya  999887777  1968-01-09   3321 Castle Spring TX  F  25000  987654321  4
+3  Jennifer  S  Wallace  987654321  1941-01-09   291 Berry Bellaire TX  F  43000  888665555  4
+4    Ramesh  K  Narayan  666884444  1962-01-09  975 Fire Oak Humble TX  M  38000  333445555  5
+2024-06-09 22:49:25,139 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 22:49:25,139 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 22:49:27,733 - ERROR: Error ingesting data into EMPLOYEE: 100078 (22000): None: String 'Smith' is too long and would be truncated
+2024-06-09 22:49:27,733 - INFO: closed
+2024-06-09 22:49:27,733 - INFO: No async queries seem to be running, deleting session
+2024-06-09 22:53:48,513 - ERROR: Error ingesting data into EMPLOYEE: Error tokenizing data. C error: Expected 10 fields in line 2, saw 11
+
+2024-06-09 22:56:34,654 - INFO: DataFrame Head:
+2024-06-09 22:56:34,654 - INFO:            0         1  2        3           4                       5  6      7            8  9
+0  123456789      John  B    Smith  1965-01-09  731 Fondren Houston TX  M  30000  333445555.0  5
+1  333445555  Franklin  T     Wong  1955-01-09     638 Voss Houston TX  M  40000  888665555.0  5
+2  999887777    Alicia  J   Zelaya  1968-01-09   3321 Castle Spring TX  F  25000  987654321.0  4
+3  987654321  Jennifer  S  Wallace  1941-01-09   291 Berry Bellaire TX  F  43000  888665555.0  4
+4  666884444    Ramesh  K  Narayan  1962-01-09  975 Fire Oak Humble TX  M  38000  333445555.0  5
+2024-06-09 22:56:34,654 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 22:56:34,654 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 22:56:35,927 - ERROR: Error ingesting data into EMPLOYEE: 000904 (42000): 01b4e86c-0001-e201-0005-d4ce0002d0f2: SQL compilation error: error line 1 at position 768
+invalid identifier 'NAN'
+2024-06-09 22:56:35,927 - INFO: closed
+2024-06-09 22:56:35,927 - INFO: No async queries seem to be running, deleting session
+2024-06-09 22:57:34,182 - INFO: DataFrame Head:
+2024-06-09 22:57:34,182 - INFO:            0         1  2        3           4                       5  6      7            8  9
+0  123456789      John  B    Smith  1965-01-09  731 Fondren Houston TX  M  30000  333445555.0  5
+1  333445555  Franklin  T     Wong  1955-01-09     638 Voss Houston TX  M  40000  888665555.0  5
+2  999887777    Alicia  J   Zelaya  1968-01-09   3321 Castle Spring TX  F  25000  987654321.0  4
+3  987654321  Jennifer  S  Wallace  1941-01-09   291 Berry Bellaire TX  F  43000  888665555.0  4
+4  666884444    Ramesh  K  Narayan  1962-01-09  975 Fire Oak Humble TX  M  38000  333445555.0  5
+2024-06-09 22:57:34,182 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 22:57:34,182 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 22:57:35,471 - ERROR: Error ingesting data into EMPLOYEE: 000904 (42000): 01b4e86d-0001-e204-0005-d4ce0002f0b6: SQL compilation error: error line 1 at position 768
+invalid identifier 'NAN'
+2024-06-09 22:57:35,471 - INFO: closed
+2024-06-09 22:57:35,471 - INFO: No async queries seem to be running, deleting session
+2024-06-09 22:59:09,961 - INFO: DataFrame Head:
+2024-06-09 22:59:09,961 - INFO:            0         1  2        3           4                       5  6      7            8  9
+0  123456789      John  B    Smith  1965-01-09  731 Fondren Houston TX  M  30000  333445555.0  5
+1  333445555  Franklin  T     Wong  1955-01-09     638 Voss Houston TX  M  40000  888665555.0  5
+2  999887777    Alicia  J   Zelaya  1968-01-09   3321 Castle Spring TX  F  25000  987654321.0  4
+3  987654321  Jennifer  S  Wallace  1941-01-09   291 Berry Bellaire TX  F  43000  888665555.0  4
+4  666884444    Ramesh  K  Narayan  1962-01-09  975 Fire Oak Humble TX  M  38000  333445555.0  5
+2024-06-09 22:59:09,977 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 22:59:09,977 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 22:59:11,135 - ERROR: Error ingesting data into EMPLOYEE: 000904 (42000): 01b4e86f-0001-e206-0005-d4ce000320de: SQL compilation error: error line 1 at position 768
+invalid identifier 'NAN'
+2024-06-09 22:59:11,135 - INFO: closed
+2024-06-09 22:59:11,135 - INFO: No async queries seem to be running, deleting session
+2024-06-09 23:05:16,773 - ERROR: Error ingesting data into EMPLOYEE: name 'np' is not defined
+2024-06-09 23:06:19,052 - ERROR: Error ingesting data into EMPLOYEE: name 'np' is not defined
+2024-06-09 23:07:39,746 - INFO: DataFrame Head:
+2024-06-09 23:07:39,746 - INFO:            0         1  2        3           4                       5  6      7            8  9
+0  123456789      John  B    Smith  1965-01-09  731 Fondren Houston TX  M  30000  333445555.0  5
+1  333445555  Franklin  T     Wong  1955-01-09     638 Voss Houston TX  M  40000  888665555.0  5
+2  999887777    Alicia  J   Zelaya  1968-01-09   3321 Castle Spring TX  F  25000  987654321.0  4
+3  987654321  Jennifer  S  Wallace  1941-01-09   291 Berry Bellaire TX  F  43000  888665555.0  4
+4  666884444    Ramesh  K  Narayan  1962-01-09  975 Fire Oak Humble TX  M  38000  333445555.0  5
+2024-06-09 23:07:39,746 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 23:07:39,746 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 23:07:41,033 - ERROR: Error ingesting data into EMPLOYEE: 000904 (42000): 01b4e877-0001-e206-0005-d4ce000320e2: SQL compilation error: error line 1 at position 768
+invalid identifier 'NAN'
+2024-06-09 23:07:41,033 - INFO: closed
+2024-06-09 23:07:41,033 - INFO: No async queries seem to be running, deleting session
+2024-06-09 23:08:41,179 - INFO: DataFrame Head:
+2024-06-09 23:08:41,179 - INFO:            0         1  2        3           4                       5  6      7            8  9
+0  123456789      John  B    Smith  1965-01-09  731 Fondren Houston TX  M  30000  333445555.0  5
+1  333445555  Franklin  T     Wong  1955-01-09     638 Voss Houston TX  M  40000  888665555.0  5
+2  999887777    Alicia  J   Zelaya  1968-01-09   3321 Castle Spring TX  F  25000  987654321.0  4
+3  987654321  Jennifer  S  Wallace  1941-01-09   291 Berry Bellaire TX  F  43000  888665555.0  4
+4  666884444    Ramesh  K  Narayan  1962-01-09  975 Fire Oak Humble TX  M  38000  333445555.0  5
+2024-06-09 23:08:41,179 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 23:08:41,179 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 23:08:42,340 - ERROR: Error ingesting data into EMPLOYEE: 000904 (42000): 01b4e878-0001-e1ff-0005-d4ce000360a2: SQL compilation error: error line 1 at position 768
+invalid identifier 'NAN'
+2024-06-09 23:08:42,340 - INFO: closed
+2024-06-09 23:08:42,340 - INFO: No async queries seem to be running, deleting session
+2024-06-09 23:13:14,294 - INFO: DataFrame Head:
+2024-06-09 23:13:14,294 - INFO:            0         1  2        3           4                        5  6      7            8  9
+0  123456789      John  B    Smith  1965-01-09  731 Fondren, Houston,TX  M  30000  333445555.0  5
+1  333445555  Franklin  T     Wong  1955-01-09     638 Voss, Houston,TX  M  40000  888665555.0  5
+2  999887777    Alicia  J   Zelaya  1968-01-09   3321 Castle, Spring,TX  F  25000  987654321.0  4
+3  987654321  Jennifer  S  Wallace  1941-01-09   291 Berry, Bellaire,TX  F  43000  888665555.0  4
+4  666884444    Ramesh  K  Narayan  1962-01-09  975 Fire Oak, Humble,TX  M  38000  333445555.0  5
+2024-06-09 23:13:14,294 - INFO: Unique values in column 0: [123456789 333445555 999887777 987654321 666884444 453453453 987987987
+ 888665555 753453457 117987987]
+2024-06-09 23:13:14,294 - INFO: Unique values in column 1: ['John' 'Franklin' 'Alicia' 'Jennifer' 'Ramesh' 'Joyce' 'Ahmad' 'James'
+ 'Satya']
+2024-06-09 23:13:14,294 - INFO: Unique values in column 2: ['B' 'T' 'J' 'S' 'K' 'A' 'V' 'E']
+2024-06-09 23:13:14,294 - INFO: Unique values in column 3: ['Smith' 'Wong' 'Zelaya' 'Wallace' 'Narayan' 'English' 'Jabbar' 'Borg'
+ 'Kumar' 'Pop']
+2024-06-09 23:13:14,294 - INFO: Unique values in column 4: ['1965-01-09' '1955-01-09' '1968-01-09' '1941-01-09' '1962-01-09'
+ '1972-01-09' '1969-01-09' '1937-01-09']
+2024-06-09 23:13:14,294 - INFO: Unique values in column 5: ['731 Fondren, Houston,TX' '638 Voss, Houston,TX' '3321 Castle, Spring,TX'
+ '291 Berry, Bellaire,TX' '975 Fire Oak, Humble,TX'
+ '5631, Rice Houston, TX' '980 Dallas, Houston, TX'
+ '450 Stone, Houston, TX' '5631 Rice, New York, NY'
+ '980 Dallas, Seattle, WA']
+2024-06-09 23:13:14,294 - INFO: Unique values in column 6: ['M' 'F']
+2024-06-09 23:13:14,294 - INFO: Unique values in column 7: [30000 40000 25000 43000 38000 55000]
+2024-06-09 23:13:14,294 - INFO: Unique values in column 8: [333445555.0 888665555.0 987654321.0 'NULL' 117987987.0]
+2024-06-09 23:13:14,294 - INFO: Unique values in column 9: [5 4 1 6]
+2024-06-09 23:13:14,294 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 23:13:14,294 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 23:13:16,071 - ERROR: Error ingesting data into EMPLOYEE: 100038 (22018): 01b4e87d-0001-e208-0005-d4ce000310aa: Numeric value 'NULL' is not recognized
+2024-06-09 23:13:16,071 - INFO: closed
+2024-06-09 23:13:16,071 - INFO: No async queries seem to be running, deleting session
+2024-06-09 23:14:11,733 - INFO: DataFrame Head:
+2024-06-09 23:14:11,733 - INFO:            0         1  2        3           4                        5  6      7            8  9
+0  123456789      John  B    Smith  1965-01-09  731 Fondren, Houston,TX  M  30000  333445555.0  5
+1  333445555  Franklin  T     Wong  1955-01-09     638 Voss, Houston,TX  M  40000  888665555.0  5
+2  999887777    Alicia  J   Zelaya  1968-01-09   3321 Castle, Spring,TX  F  25000  987654321.0  4
+3  987654321  Jennifer  S  Wallace  1941-01-09   291 Berry, Bellaire,TX  F  43000  888665555.0  4
+4  666884444    Ramesh  K  Narayan  1962-01-09  975 Fire Oak, Humble,TX  M  38000  333445555.0  5
+2024-06-09 23:14:11,733 - INFO: Unique values in column 0: [123456789 333445555 999887777 987654321 666884444 453453453 987987987
+ 888665555 753453457 117987987]
+2024-06-09 23:14:11,733 - INFO: Unique values in column 1: ['John' 'Franklin' 'Alicia' 'Jennifer' 'Ramesh' 'Joyce' 'Ahmad' 'James'
+ 'Satya']
+2024-06-09 23:14:11,733 - INFO: Unique values in column 2: ['B' 'T' 'J' 'S' 'K' 'A' 'V' 'E']
+2024-06-09 23:14:11,733 - INFO: Unique values in column 3: ['Smith' 'Wong' 'Zelaya' 'Wallace' 'Narayan' 'English' 'Jabbar' 'Borg'
+ 'Kumar' 'Pop']
+2024-06-09 23:14:11,733 - INFO: Unique values in column 4: ['1965-01-09' '1955-01-09' '1968-01-09' '1941-01-09' '1962-01-09'
+ '1972-01-09' '1969-01-09' '1937-01-09']
+2024-06-09 23:14:11,733 - INFO: Unique values in column 5: ['731 Fondren, Houston,TX' '638 Voss, Houston,TX' '3321 Castle, Spring,TX'
+ '291 Berry, Bellaire,TX' '975 Fire Oak, Humble,TX'
+ '5631, Rice Houston, TX' '980 Dallas, Houston, TX'
+ '450 Stone, Houston, TX' '5631 Rice, New York, NY'
+ '980 Dallas, Seattle, WA']
+2024-06-09 23:14:11,733 - INFO: Unique values in column 6: ['M' 'F']
+2024-06-09 23:14:11,733 - INFO: Unique values in column 7: [30000 40000 25000 43000 38000 55000]
+2024-06-09 23:14:11,733 - INFO: Unique values in column 8: ['333445555.0' '888665555.0' '987654321.0' 'nan' '117987987.0']
+2024-06-09 23:14:11,733 - INFO: Unique values in column 9: [5 4 1 6]
+2024-06-09 23:14:11,733 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 23:14:11,733 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 23:14:14,551 - ERROR: Error ingesting data into EMPLOYEE: 100078 (22000): None: String '333445555.0' is too long and would be truncated
+2024-06-09 23:14:14,551 - INFO: closed
+2024-06-09 23:14:14,551 - INFO: No async queries seem to be running, deleting session
+2024-06-09 23:15:20,487 - INFO: DataFrame Head:
+2024-06-09 23:15:20,487 - INFO:            0         1  2        3           4                        5  6      7            8  9
+0  123456789      John  B    Smith  1965-01-09  731 Fondren, Houston,TX  M  30000  333445555.0  5
+1  333445555  Franklin  T     Wong  1955-01-09     638 Voss, Houston,TX  M  40000  888665555.0  5
+2  999887777    Alicia  J   Zelaya  1968-01-09   3321 Castle, Spring,TX  F  25000  987654321.0  4
+3  987654321  Jennifer  S  Wallace  1941-01-09   291 Berry, Bellaire,TX  F  43000  888665555.0  4
+4  666884444    Ramesh  K  Narayan  1962-01-09  975 Fire Oak, Humble,TX  M  38000  333445555.0  5
+2024-06-09 23:15:20,503 - INFO: Unique values in column 0: [123456789 333445555 999887777 987654321 666884444 453453453 987987987
+ 888665555 753453457 117987987]
+2024-06-09 23:15:20,503 - INFO: Unique values in column 1: ['John' 'Franklin' 'Alicia' 'Jennifer' 'Ramesh' 'Joyce' 'Ahmad' 'James'
+ 'Satya']
+2024-06-09 23:15:20,503 - INFO: Unique values in column 2: ['B' 'T' 'J' 'S' 'K' 'A' 'V' 'E']
+2024-06-09 23:15:20,503 - INFO: Unique values in column 3: ['Smith' 'Wong' 'Zelaya' 'Wallace' 'Narayan' 'English' 'Jabbar' 'Borg'
+ 'Kumar' 'Pop']
+2024-06-09 23:15:20,503 - INFO: Unique values in column 4: ['1965-01-09' '1955-01-09' '1968-01-09' '1941-01-09' '1962-01-09'
+ '1972-01-09' '1969-01-09' '1937-01-09']
+2024-06-09 23:15:20,503 - INFO: Unique values in column 5: ['731 Fondren, Houston,TX' '638 Voss, Houston,TX' '3321 Castle, Spring,TX'
+ '291 Berry, Bellaire,TX' '975 Fire Oak, Humble,TX'
+ '5631, Rice Houston, TX' '980 Dallas, Houston, TX'
+ '450 Stone, Houston, TX' '5631 Rice, New York, NY'
+ '980 Dallas, Seattle, WA']
+2024-06-09 23:15:20,503 - INFO: Unique values in column 6: ['M' 'F']
+2024-06-09 23:15:20,503 - INFO: Unique values in column 7: [30000 40000 25000 43000 38000 55000]
+2024-06-09 23:15:20,503 - INFO: Unique values in column 8: ['333445555.0' '888665555.0' '987654321.0' 'nan' '117987987.0']
+2024-06-09 23:15:20,503 - INFO: Unique values in column 9: [5 4 1 6]
+2024-06-09 23:15:20,503 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 23:15:20,503 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 23:15:23,048 - ERROR: Error ingesting data into EMPLOYEE: 100078 (22000): None: String '333445555.0' is too long and would be truncated
+2024-06-09 23:15:23,048 - INFO: closed
+2024-06-09 23:15:23,048 - INFO: No async queries seem to be running, deleting session
+2024-06-09 23:17:53,330 - ERROR: Error ingesting data into EMPLOYEE: 'col1'
+2024-06-09 23:19:00,218 - ERROR: Error ingesting data into EMPLOYEE: 'EMPLOYEE_ID'
+2024-06-09 23:27:21,974 - INFO: DataFrame Head:
+2024-06-09 23:27:21,974 - INFO:            0         1  2        3           4                        5  6      7            8  9
+0  123456789      John  B    Smith  1965-01-09  731 Fondren, Houston,TX  M  30000  333445555.0  5
+1  333445555  Franklin  T     Wong  1955-01-09     638 Voss, Houston,TX  M  40000  888665555.0  5
+2  999887777    Alicia  J   Zelaya  1968-01-09   3321 Castle, Spring,TX  F  25000  987654321.0  4
+3  987654321  Jennifer  S  Wallace  1941-01-09   291 Berry, Bellaire,TX  F  43000  888665555.0  4
+4  666884444    Ramesh  K  Narayan  1962-01-09  975 Fire Oak, Humble,TX  M  38000  333445555.0  5
+2024-06-09 23:27:21,974 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 23:27:21,974 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 23:27:23,294 - ERROR: Error ingesting data into EMPLOYEE: 000904 (42000): 01b4e88b-0001-e209-0005-d4ce000330ce: SQL compilation error: error line 1 at position 779
+invalid identifier 'NAN'
+2024-06-09 23:27:23,294 - INFO: closed
+2024-06-09 23:27:23,294 - INFO: No async queries seem to be running, deleting session
+2024-06-09 23:30:49,458 - INFO: DataFrame Head:
+2024-06-09 23:30:49,458 - INFO:            0         1  2        3           4                        5  6      7            8  9
+0  123456789      John  B    Smith  1965-01-09  731 Fondren, Houston,TX  M  30000  333445555.0  5
+1  333445555  Franklin  T     Wong  1955-01-09     638 Voss, Houston,TX  M  40000  888665555.0  5
+2  999887777    Alicia  J   Zelaya  1968-01-09   3321 Castle, Spring,TX  F  25000  987654321.0  4
+3  987654321  Jennifer  S  Wallace  1941-01-09   291 Berry, Bellaire,TX  F  43000  888665555.0  4
+4  666884444    Ramesh  K  Narayan  1962-01-09  975 Fire Oak, Humble,TX  M  38000  333445555.0  5
+2024-06-09 23:30:49,458 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 23:30:49,458 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 23:30:50,795 - ERROR: Error ingesting data into EMPLOYEE: 000904 (42000): 01b4e88e-0001-e200-0005-d4ce00034112: SQL compilation error: error line 1 at position 779
+invalid identifier 'NAN'
+2024-06-09 23:30:50,795 - INFO: closed
+2024-06-09 23:30:50,795 - INFO: No async queries seem to be running, deleting session
+2024-06-09 23:32:05,021 - INFO: DataFrame Head:
+2024-06-09 23:32:05,021 - INFO:            0         1  2        3           4                        5  6      7            8  9
+0  123456789      John  B    Smith  1965-01-09  731 Fondren, Houston,TX  M  30000  333445555.0  5
+1  333445555  Franklin  T     Wong  1955-01-09     638 Voss, Houston,TX  M  40000  888665555.0  5
+2  999887777    Alicia  J   Zelaya  1968-01-09   3321 Castle, Spring,TX  F  25000  987654321.0  4
+3  987654321  Jennifer  S  Wallace  1941-01-09   291 Berry, Bellaire,TX  F  43000  888665555.0  4
+4  666884444    Ramesh  K  Narayan  1962-01-09  975 Fire Oak, Humble,TX  M  38000  333445555.0  5
+2024-06-09 23:32:05,036 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 23:32:05,036 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 23:32:06,592 - ERROR: Error ingesting data into EMPLOYEE: 000904 (42000): 01b4e890-0001-e1fe-0005-d4ce000300da: SQL compilation error: error line 1 at position 779
+invalid identifier 'NAN'
+2024-06-09 23:32:06,607 - INFO: closed
+2024-06-09 23:32:06,607 - INFO: No async queries seem to be running, deleting session
+2024-06-09 23:33:10,068 - INFO: DataFrame Head:
+2024-06-09 23:33:10,068 - INFO:            0         1  2        3           4                        5  6      7            8  9
+0  123456789      John  B    Smith  1965-01-09  731 Fondren, Houston,TX  M  30000  333445555.0  5
+1  333445555  Franklin  T     Wong  1955-01-09     638 Voss, Houston,TX  M  40000  888665555.0  5
+2  999887777    Alicia  J   Zelaya  1968-01-09   3321 Castle, Spring,TX  F  25000  987654321.0  4
+3  987654321  Jennifer  S  Wallace  1941-01-09   291 Berry, Bellaire,TX  F  43000  888665555.0  4
+4  666884444    Ramesh  K  Narayan  1962-01-09  975 Fire Oak, Humble,TX  M  38000  333445555.0  5
+2024-06-09 23:33:10,068 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 23:33:10,068 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 23:33:11,388 - ERROR: Error ingesting data into EMPLOYEE: 000904 (42000): 01b4e891-0001-e200-0005-d4ce00034116: SQL compilation error: error line 1 at position 779
+invalid identifier 'NAN'
+2024-06-09 23:33:11,388 - INFO: closed
+2024-06-09 23:33:11,388 - INFO: No async queries seem to be running, deleting session
+2024-06-09 23:35:02,625 - INFO: DataFrame Head:
+2024-06-09 23:35:02,625 - INFO:            0         1  2        3           4                        5  6      7            8  9
+0  123456789      John  B    Smith  1965-01-09  731 Fondren, Houston,TX  M  30000  333445555.0  5
+1  333445555  Franklin  T     Wong  1955-01-09     638 Voss, Houston,TX  M  40000  888665555.0  5
+2  999887777    Alicia  J   Zelaya  1968-01-09   3321 Castle, Spring,TX  F  25000  987654321.0  4
+3  987654321  Jennifer  S  Wallace  1941-01-09   291 Berry, Bellaire,TX  F  43000  888665555.0  4
+4  666884444    Ramesh  K  Narayan  1962-01-09  975 Fire Oak, Humble,TX  M  38000  333445555.0  5
+2024-06-09 23:35:02,625 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 23:35:02,625 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 23:35:04,430 - ERROR: Error ingesting data into EMPLOYEE: 100038 (22018): 01b4e893-0001-e200-0005-d4ce0003411a: Numeric value 'NULL' is not recognized
+2024-06-09 23:35:04,430 - INFO: closed
+2024-06-09 23:35:04,430 - INFO: No async queries seem to be running, deleting session
+2024-06-09 23:35:53,929 - INFO: DataFrame Head:
+2024-06-09 23:35:53,929 - INFO:            0         1  2        3           4                        5  6      7            8  9
+0  123456789      John  B    Smith  1965-01-09  731 Fondren, Houston,TX  M  30000  333445555.0  5
+1  333445555  Franklin  T     Wong  1955-01-09     638 Voss, Houston,TX  M  40000  888665555.0  5
+2  999887777    Alicia  J   Zelaya  1968-01-09   3321 Castle, Spring,TX  F  25000  987654321.0  4
+3  987654321  Jennifer  S  Wallace  1941-01-09   291 Berry, Bellaire,TX  F  43000  888665555.0  4
+4  666884444    Ramesh  K  Narayan  1962-01-09  975 Fire Oak, Humble,TX  M  38000  333445555.0  5
+2024-06-09 23:35:53,940 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 23:35:53,940 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 23:35:56,397 - ERROR: Error ingesting data into EMPLOYEE: 100078 (22000): None: String '333445555.0' is too long and would be truncated
+2024-06-09 23:35:56,397 - INFO: closed
+2024-06-09 23:35:56,397 - INFO: No async queries seem to be running, deleting session
+2024-06-09 23:37:07,769 - INFO: DataFrame Head:
+2024-06-09 23:37:07,769 - INFO:            0         1  2        3           4                        5  6      7            8  9
+0  123456789      John  B    Smith  1965-01-09  731 Fondren, Houston,TX  M  30000  333445555.0  5
+1  333445555  Franklin  T     Wong  1955-01-09     638 Voss, Houston,TX  M  40000  888665555.0  5
+2  999887777    Alicia  J   Zelaya  1968-01-09   3321 Castle, Spring,TX  F  25000  987654321.0  4
+3  987654321  Jennifer  S  Wallace  1941-01-09   291 Berry, Bellaire,TX  F  43000  888665555.0  4
+4  666884444    Ramesh  K  Narayan  1962-01-09  975 Fire Oak, Humble,TX  M  38000  333445555.0  5
+2024-06-09 23:37:07,785 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 23:37:07,785 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 23:37:10,440 - ERROR: Error ingesting data into EMPLOYEE: 100078 (22000): None: String '333445555.0' is too long and would be truncated
+2024-06-09 23:37:10,440 - INFO: closed
+2024-06-09 23:37:10,440 - INFO: No async queries seem to be running, deleting session
+2024-06-09 23:38:08,428 - INFO: DataFrame Head:
+2024-06-09 23:38:08,428 - INFO:            0         1  2        3           4                        5  6      7            8  9
+0  123456789      John  B    Smith  1965-01-09  731 Fondren, Houston,TX  M  30000  333445555.0  5
+1  333445555  Franklin  T     Wong  1955-01-09     638 Voss, Houston,TX  M  40000  888665555.0  5
+2  999887777    Alicia  J   Zelaya  1968-01-09   3321 Castle, Spring,TX  F  25000  987654321.0  4
+3  987654321  Jennifer  S  Wallace  1941-01-09   291 Berry, Bellaire,TX  F  43000  888665555.0  4
+4  666884444    Ramesh  K  Narayan  1962-01-09  975 Fire Oak, Humble,TX  M  38000  333445555.0  5
+2024-06-09 23:38:08,444 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 23:38:08,444 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 23:38:10,642 - ERROR: Error ingesting data into EMPLOYEE: 100078 (22000): None: String '333445555.0' is too long and would be truncated
+2024-06-09 23:38:10,642 - INFO: closed
+2024-06-09 23:38:10,642 - INFO: No async queries seem to be running, deleting session
+2024-06-09 23:39:04,447 - ERROR: Error ingesting data into EMPLOYEE: Cannot convert non-finite values (NA or inf) to integer
+2024-06-09 23:41:06,968 - INFO: DataFrame Head:
+2024-06-09 23:41:06,968 - INFO:            0  1     2
+0  123456789  1  32.5
+1  123456789  2   7.5
+2  666884444  3  40.0
+3  453453453  1  20.0
+4  453453453  2  20.0
+2024-06-09 23:41:06,968 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 23:41:06,968 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 23:41:08,367 - ERROR: Error ingesting data into WORKS_ON: 000904 (42000): 01b4e899-0001-e203-0005-d4ce0002e126: SQL compilation error: error line 1 at position 397
+invalid identifier 'NAN'
+2024-06-09 23:41:08,367 - INFO: closed
+2024-06-09 23:41:08,367 - INFO: No async queries seem to be running, deleting session
+2024-06-09 23:43:09,200 - INFO: DataFrame Head:
+2024-06-09 23:43:09,200 - INFO:            0  1     2
+0  123456789  1  32.5
+1  123456789  2   7.5
+2  666884444  3  40.0
+3  453453453  1  20.0
+4  453453453  2  20.0
+2024-06-09 23:43:09,200 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 23:43:09,200 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 23:43:10,456 - ERROR: Error ingesting data into WORKS_ON: 000904 (42000): 01b4e89b-0001-e1fe-0005-d4ce000300de: SQL compilation error: error line 1 at position 397
+invalid identifier 'NAN'
+2024-06-09 23:43:10,456 - INFO: closed
+2024-06-09 23:43:10,456 - INFO: No async queries seem to be running, deleting session
+2024-06-09 23:44:07,436 - INFO: DataFrame Head:
+2024-06-09 23:44:07,436 - INFO:            0  1     2
+0  123456789  1  32.5
+1  123456789  2   7.5
+2  666884444  3  40.0
+3  453453453  1  20.0
+4  453453453  2  20.0
+2024-06-09 23:44:07,436 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 23:44:07,436 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 23:44:08,975 - ERROR: Error ingesting data into WORKS_ON: 100038 (22018): 01b4e89c-0001-e201-0005-d4ce0002d11a: Numeric value 'NULL' is not recognized
+2024-06-09 23:44:08,975 - INFO: closed
+2024-06-09 23:44:08,975 - INFO: No async queries seem to be running, deleting session
+2024-06-10 00:02:23,050 - ERROR: File '..\inbound_data\deendent.txt' does not exist.
+2024-06-10 00:03:14,169 - ERROR: File '..\inbound_data\deendent.txt' does not exist.
+2024-06-10 00:03:40,437 - INFO: DataFrame Head:
+2024-06-10 00:03:40,437 - INFO:            0         1  2           3         4
+0  333445555     Alice  F  1986-04-05  Daughter
+1  333445555  Theodore  M  1983-04-05       Son
+2  333445555       Joy  F  1958-04-05    Spouse
+3  987654321     Abner  M  1942-04-05    Spouse
+4  123456789   Michael  M  1988-04-05       Son
+2024-06-10 00:03:40,437 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 00:03:40,437 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 00:03:42,323 - INFO: Number of results in first chunk: 1
+2024-06-10 00:03:42,323 - INFO: Data ingestion successful!
+2024-06-10 00:03:42,323 - INFO: closed
+2024-06-10 00:03:42,323 - INFO: No async queries seem to be running, deleting session
+2024-06-10 00:04:49,920 - INFO: DataFrame Head:
+2024-06-10 00:04:49,920 - INFO:            0  1     2
+0  123456789  1  32.5
+1  123456789  2   7.5
+2  666884444  3  40.0
+3  453453453  1  20.0
+4  453453453  2  20.0
+2024-06-10 00:04:49,920 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 00:04:49,920 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 00:04:51,161 - ERROR: Error ingesting data into WORKS_ON: 000904 (42000): 01b4e8b0-0001-e201-0005-d4ce0002d12a: SQL compilation error: error line 1 at position 397
+invalid identifier 'NAN'
+2024-06-10 00:04:51,161 - INFO: closed
+2024-06-10 00:04:51,161 - INFO: No async queries seem to be running, deleting session
+2024-06-10 00:13:11,576 - INFO: DataFrame Head:
+2024-06-10 00:13:11,576 - INFO:            0  1     2
+0  123456789  1  32.5
+1  123456789  2   7.5
+2  666884444  3  40.0
+3  453453453  1  20.0
+4  453453453  2  20.0
+2024-06-10 00:13:11,592 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 00:13:11,592 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 00:13:12,896 - ERROR: Error ingesting data into WORKS_ON: 000904 (42000): 01b4e8b9-0001-e206-0005-d4ce0003211e: SQL compilation error: error line 1 at position 397
+invalid identifier 'NAN'
+2024-06-10 00:13:12,896 - INFO: closed
+2024-06-10 00:13:12,896 - INFO: No async queries seem to be running, deleting session
+2024-06-10 00:14:12,940 - INFO: DataFrame Head:
+2024-06-10 00:14:12,940 - INFO:            0  1     2
+0  123456789  1  32.5
+1  123456789  2   7.5
+2  666884444  3  40.0
+3  453453453  1  20.0
+4  453453453  2  20.0
+2024-06-10 00:14:12,940 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 00:14:12,940 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 00:14:14,808 - ERROR: Error ingesting data into WORKS_ON: 100038 (22018): 01b4e8ba-0001-e1ff-0005-d4ce000360ce: Numeric value 'NULL' is not recognized
+2024-06-10 00:14:14,808 - INFO: closed
+2024-06-10 00:14:14,808 - INFO: No async queries seem to be running, deleting session
+2024-06-10 00:14:53,349 - INFO: DataFrame Head:
+2024-06-10 00:14:53,349 - INFO:            0  1     2
+0  123456789  1  32.5
+1  123456789  2   7.5
+2  666884444  3  40.0
+3  453453453  1  20.0
+4  453453453  2  20.0
+2024-06-10 00:14:53,349 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 00:14:53,349 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 00:14:54,903 - ERROR: Error ingesting data into WORKS_ON: 100038 (22018): 01b4e8ba-0001-e206-0005-d4ce00032122: Numeric value 'NULL' is not recognized
+2024-06-10 00:14:54,903 - INFO: closed
+2024-06-10 00:14:54,903 - INFO: No async queries seem to be running, deleting session
+2024-06-10 00:15:34,012 - INFO: DataFrame Head:
+2024-06-10 00:15:34,012 - INFO:              0    1     2
+0  123456789.0  1.0  32.5
+1  123456789.0  2.0   7.5
+2  666884444.0  3.0  40.0
+3  453453453.0  1.0  20.0
+4  453453453.0  2.0  20.0
+2024-06-10 00:15:34,027 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 00:15:34,027 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 00:15:35,519 - ERROR: Error ingesting data into WORKS_ON: 100038 (22018): 01b4e8bb-0001-e206-0005-d4ce00032126: Numeric value 'NULL' is not recognized
+2024-06-10 00:15:35,519 - INFO: closed
+2024-06-10 00:15:35,519 - INFO: No async queries seem to be running, deleting session
+2024-06-10 00:16:37,328 - INFO: DataFrame Head:
+2024-06-10 00:16:37,328 - INFO:            0  1     2
+0  123456789  1  32.5
+1  123456789  2   7.5
+2  666884444  3  40.0
+3  453453453  1  20.0
+4  453453453  2  20.0
+2024-06-10 00:16:37,343 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 00:16:37,343 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 00:16:38,553 - ERROR: Error ingesting data into WORKS_ON: 000904 (42000): 01b4e8bc-0001-e209-0005-d4ce000330ee: SQL compilation error: error line 1 at position 397
+invalid identifier 'NAN'
+2024-06-10 00:16:38,553 - INFO: closed
+2024-06-10 00:16:38,553 - INFO: No async queries seem to be running, deleting session
+2024-06-10 00:17:41,156 - INFO: DataFrame Head:
+2024-06-10 00:17:41,156 - INFO:            0  1     2
+0  123456789  1  32.5
+1  123456789  2   7.5
+2  666884444  3  40.0
+3  453453453  1  20.0
+4  453453453  2  20.0
+2024-06-10 00:17:41,156 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 00:17:41,156 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 00:17:42,492 - ERROR: Error ingesting data into WORKS_ON: 000904 (42000): 01b4e8bd-0001-e208-0005-d4ce000310d2: SQL compilation error: error line 1 at position 397
+invalid identifier 'NAN'
+2024-06-10 00:17:42,492 - INFO: closed
+2024-06-10 00:17:42,492 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:13:54,230 - INFO: DataFrame Head:
+2024-06-10 11:13:54,230 - INFO:     0                1          2  3
+0   1         ProductX   Bellaire  5
+1   2         ProductY  Sugarland  5
+2   3         ProductZ    Houston  5
+3  10  Computerization   Stafford  4
+4  20   Reorganization    Houston  1
+2024-06-10 11:13:54,245 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:13:54,245 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:13:56,649 - INFO: Number of results in first chunk: 1
+2024-06-10 11:13:56,649 - INFO: Data ingestion successful!
+2024-06-10 11:13:56,649 - INFO: closed
+2024-06-10 11:13:56,649 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:14:18,883 - INFO: DataFrame Head:
+2024-06-10 11:14:18,883 - INFO:            0  1     2
+0  123456789  1  32.5
+1  123456789  2   7.5
+2  666884444  3  40.0
+3  453453453  1  20.0
+4  453453453  2  20.0
+2024-06-10 11:14:18,883 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:14:18,883 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:14:20,315 - ERROR: Error ingesting data into WORKS_ON: 000904 (42000): 01b4eb4e-0001-e206-0005-d4ce00032166: SQL compilation error: error line 1 at position 397
+invalid identifier 'NAN'
+2024-06-10 11:14:20,315 - INFO: closed
+2024-06-10 11:14:20,315 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:18:42,067 - INFO: DataFrame Head:
+2024-06-10 11:18:42,067 - INFO:            0  1     2
+0  123456789  1  32.5
+1  123456789  2   7.5
+2  666884444  3  40.0
+3  453453453  1  20.0
+4  453453453  2  20.0
+2024-06-10 11:18:42,067 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:18:42,067 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:18:43,546 - INFO: Number of results in first chunk: 1
+2024-06-10 11:18:44,300 - INFO: Number of results in first chunk: 1
+2024-06-10 11:18:44,300 - INFO: Data ingestion successful!
+2024-06-10 11:18:44,300 - INFO: closed
+2024-06-10 11:18:44,378 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:18:44,472 - INFO: Snowflake connection closed.
+2024-06-10 11:20:30,141 - INFO: DataFrame Head:
+2024-06-10 11:20:30,141 - INFO:            0         1  2        3           4                        5  6      7          8  9
+0  123456789      John  B    Smith  1965-01-09  731 Fondren, Houston,TX  M  30000  333445555  5
+1  333445555  Franklin  T     Wong  1955-01-09     638 Voss, Houston,TX  M  40000  888665555  5
+2  999887777    Alicia  J   Zelaya  1968-01-09   3321 Castle, Spring,TX  F  25000  987654321  4
+3  987654321  Jennifer  S  Wallace  1941-01-09   291 Berry, Bellaire,TX  F  43000  888665555  4
+4  666884444    Ramesh  K  Narayan  1962-01-09  975 Fire Oak, Humble,TX  M  38000  333445555  5
+2024-06-10 11:20:30,156 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:20:30,156 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:20:31,741 - INFO: Number of results in first chunk: 1
+2024-06-10 11:20:32,620 - INFO: Number of results in first chunk: 1
+2024-06-10 11:20:32,620 - INFO: Data ingestion successful!
+2024-06-10 11:20:32,620 - INFO: closed
+2024-06-10 11:20:32,761 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:20:32,887 - INFO: Snowflake connection closed.
+2024-06-10 11:22:00,971 - INFO: DataFrame Head:
+2024-06-10 11:22:00,971 - INFO:            0         1  2        3           4                        5  6      7          8  9
+0  123456789      John  B    Smith  1965-01-09  731 Fondren, Houston,TX  M  30000  333445555  5
+1  333445555  Franklin  T     Wong  1955-01-09     638 Voss, Houston,TX  M  40000  888665555  5
+2  999887777    Alicia  J   Zelaya  1968-01-09   3321 Castle, Spring,TX  F  25000  987654321  4
+3  987654321  Jennifer  S  Wallace  1941-01-09   291 Berry, Bellaire,TX  F  43000  888665555  4
+4  666884444    Ramesh  K  Narayan  1962-01-09  975 Fire Oak, Humble,TX  M  38000  333445555  5
+2024-06-10 11:22:00,971 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:22:00,971 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:22:02,723 - INFO: Number of results in first chunk: 1
+2024-06-10 11:22:03,353 - INFO: Number of results in first chunk: 1
+2024-06-10 11:22:03,353 - INFO: Data ingestion successful!
+2024-06-10 11:22:03,353 - INFO: closed
+2024-06-10 11:22:03,433 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:22:03,527 - INFO: Snowflake connection closed.
+2024-06-10 11:23:47,550 - INFO: DataFrame Head:
+2024-06-10 11:23:47,550 - INFO:     0                1          2  3
+0   1         ProductX   Bellaire  5
+1   2         ProductY  Sugarland  5
+2   3         ProductZ    Houston  5
+3  10  Computerization   Stafford  4
+4  20   Reorganization    Houston  1
+2024-06-10 11:23:47,565 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:23:47,565 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:23:49,156 - INFO: Number of results in first chunk: 1
+2024-06-10 11:23:49,756 - INFO: Number of results in first chunk: 1
+2024-06-10 11:23:49,756 - INFO: Data ingestion successful!
+2024-06-10 11:23:49,756 - INFO: closed
+2024-06-10 11:23:49,818 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:23:49,914 - INFO: Snowflake connection closed.
+2024-06-10 11:24:55,456 - INFO: DataFrame Head:
+2024-06-10 11:24:55,456 - INFO:    0               1          2           3
+0  5        Research  333445555  1988-05-22
+1  4  Administration  987654321  1995-05-22
+2  1    Headquarters  888665555  1981-05-22
+3  6           Sales  117987987  1980-05-22
+2024-06-10 11:24:55,461 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:24:55,461 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:24:56,950 - INFO: Number of results in first chunk: 1
+2024-06-10 11:24:57,720 - INFO: Number of results in first chunk: 1
+2024-06-10 11:24:57,720 - INFO: Data ingestion successful!
+2024-06-10 11:24:57,720 - INFO: closed
+2024-06-10 11:24:57,867 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:24:58,018 - INFO: Snowflake connection closed.
+2024-06-10 11:25:39,517 - INFO: DataFrame Head:
+2024-06-10 11:25:39,517 - INFO:            0         1  2           3         4
+0  333445555     Alice  F  1986-04-05  Daughter
+1  333445555  Theodore  M  1983-04-05       Son
+2  333445555       Joy  F  1958-04-05    Spouse
+3  987654321     Abner  M  1942-04-05    Spouse
+4  123456789   Michael  M  1988-04-05       Son
+2024-06-10 11:25:39,517 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:25:39,517 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:25:40,872 - INFO: Number of results in first chunk: 1
+2024-06-10 11:25:41,486 - INFO: Number of results in first chunk: 1
+2024-06-10 11:25:41,486 - INFO: Data ingestion successful!
+2024-06-10 11:25:41,486 - INFO: closed
+2024-06-10 11:25:41,564 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:25:41,642 - INFO: Snowflake connection closed.
+2024-06-10 11:26:32,237 - INFO: DataFrame Head:
+2024-06-10 11:26:32,237 - INFO:    0           1
+0  1     Houston
+1  4    Stafford
+2  5    Bellaire
+3  5   Sugarland
+4  5     Houston
+2024-06-10 11:26:32,237 - INFO: Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-10 11:26:32,237 - INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-10 11:26:33,720 - INFO: Number of results in first chunk: 1
+2024-06-10 11:26:34,333 - INFO: Number of results in first chunk: 1
+2024-06-10 11:26:34,333 - INFO: Data ingestion successful!
+2024-06-10 11:26:34,333 - INFO: closed
+2024-06-10 11:26:34,427 - INFO: No async queries seem to be running, deleting session
+2024-06-10 11:26:34,521 - INFO: Snowflake connection closed.

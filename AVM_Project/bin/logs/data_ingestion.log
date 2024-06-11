@@ -1,0 +1,324 @@
+2024-06-03 11:24:12,103:INFO:Reading data from C:\\Users\\nikhi\\Downloads\\AVM_Project\\inbound_data\\employee.txt into DataFrame
+2024-06-03 11:24:12,112:INFO:Connecting to Snowflake to ingest data into EMPLOYEE
+2024-06-03 11:24:12,112:INFO:Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-03 11:24:12,112:INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-03 11:24:13,321:ERROR:Error ingesting data into EMPLOYEE: Missing optional dependency: pandas
+2024-06-03 11:24:13,321:INFO:closed
+2024-06-03 11:24:13,321:INFO:No async queries seem to be running, deleting session
+2024-06-03 11:27:19,820:INFO:Reading data from C:\\Users\\nikhi\\Downloads\\AVM_Project\\inbound_data\\employee.txt into DataFrame
+2024-06-03 11:27:19,836:INFO:Connecting to Snowflake to ingest data into EMPLOYEE
+2024-06-03 11:27:19,836:INFO:Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-03 11:27:19,836:INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-03 11:27:20,919:ERROR:Error ingesting data into EMPLOYEE: Missing optional dependency: pandas
+2024-06-03 11:27:20,919:INFO:closed
+2024-06-03 11:27:20,919:INFO:No async queries seem to be running, deleting session
+2024-06-03 11:33:27,202:INFO:Reading data from C:\\Users\\nikhi\\Downloads\\AVM_Project\\inbound_data\\employee.txt into DataFrame
+2024-06-03 11:33:27,202:INFO:Connecting to Snowflake to ingest data into EMPLOYEE
+2024-06-03 11:33:27,202:INFO:Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-03 11:33:27,202:INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-03 11:33:28,409:ERROR:Error ingesting data into EMPLOYEE: Missing optional dependency: pandas
+2024-06-03 11:33:28,409:INFO:closed
+2024-06-03 11:33:28,409:INFO:No async queries seem to be running, deleting session
+2024-06-03 11:36:44,390:INFO:Reading data from C:\\Users\\nikhi\\Downloads\\AVM_Project\\inbound_data\\employee.txt into DataFrame
+2024-06-03 11:36:44,390:INFO:Connecting to Snowflake to ingest data into EMPLOYEE
+2024-06-03 11:36:44,390:INFO:Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-03 11:36:44,390:INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-03 11:36:45,435:ERROR:Error ingesting data into EMPLOYEE: Missing optional dependency: pandas
+2024-06-03 11:36:45,435:INFO:closed
+2024-06-03 11:36:45,435:INFO:No async queries seem to be running, deleting session
+2024-06-03 11:43:59,534:INFO:Checking if pandas is available
+2024-06-03 11:43:59,534:INFO:Reading data from C:\\Users\\nikhi\\Downloads\\AVM_Project\\inbound_data\\employee.txt into DataFrame
+2024-06-03 11:43:59,534:INFO:Connecting to Snowflake to ingest data into EMPLOYEE
+2024-06-03 11:43:59,534:INFO:Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-03 11:43:59,534:INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-03 11:44:00,568:ERROR:Error ingesting data into EMPLOYEE: Missing optional dependency: pandas
+2024-06-03 11:44:00,568:INFO:closed
+2024-06-03 11:44:00,568:INFO:No async queries seem to be running, deleting session
+2024-06-03 12:47:46,929:INFO:Checking if pandas is available
+2024-06-03 12:47:46,929:INFO:Reading data from C:\\Users\\nikhi\\Downloads\\AVM_Project\\inbound_data\\employee.txt into DataFrame
+2024-06-03 12:47:46,945:INFO:Connecting to Snowflake to ingest data into EMPLOYEE
+2024-06-03 12:47:46,945:INFO:Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-03 12:47:46,945:INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-03 12:47:48,060:ERROR:Error ingesting data into EMPLOYEE: Missing optional dependency: pandas
+2024-06-03 12:47:48,060:INFO:closed
+2024-06-03 12:47:48,060:INFO:No async queries seem to be running, deleting session
+2024-06-03 12:49:20,970:INFO:Checking if pandas is available
+2024-06-03 12:49:20,970:INFO:Reading data from C:\\Users\\nikhi\\Downloads\\AVM_Project\\inbound_data\\employee.txt into DataFrame
+2024-06-03 12:49:20,970:INFO:Connecting to Snowflake to ingest data into EMPLOYEE
+2024-06-03 12:49:20,970:INFO:Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-03 12:49:20,970:INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-03 12:49:21,959:ERROR:Error ingesting data into EMPLOYEE: Missing optional dependency: pandas
+2024-06-03 12:49:21,959:INFO:closed
+2024-06-03 12:49:21,959:INFO:No async queries seem to be running, deleting session
+2024-06-03 12:50:10,177:INFO:Checking if pandas is available
+2024-06-03 12:50:10,177:INFO:Reading data from C:\\Users\\nikhi\\Downloads\\AVM_Project\\inbound_data\\employee.txt into DataFrame
+2024-06-03 12:50:10,177:INFO:Connecting to Snowflake to ingest data into EMPLOYEE
+2024-06-03 12:50:10,177:INFO:Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-03 12:50:10,177:INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-03 12:50:11,573:ERROR:Error ingesting data into EMPLOYEE: Missing optional dependency: pandas
+2024-06-03 12:50:11,573:INFO:closed
+2024-06-03 12:50:11,573:INFO:No async queries seem to be running, deleting session
+2024-06-03 12:53:40,211:INFO:Checking if pandas is available
+2024-06-03 12:53:40,211:INFO:Reading data from C:\\Users\\nikhi\\Downloads\\AVM_Project\\inbound_data\\employee.txt into DataFrame
+2024-06-03 12:53:40,227:INFO:Connecting to Snowflake to ingest data into EMPLOYEE
+2024-06-03 12:53:40,227:INFO:Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-03 12:53:40,227:INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-03 12:53:41,200:ERROR:Error ingesting data into EMPLOYEE: Missing optional dependency: pandas
+2024-06-03 12:53:41,200:INFO:closed
+2024-06-03 12:53:41,200:INFO:No async queries seem to be running, deleting session
+2024-06-03 12:57:21,933:INFO:Checking if pandas is available
+2024-06-03 12:57:21,933:INFO:Reading data from C:\\Users\\nikhi\\Downloads\\AVM_Project\\inbound_data\\employee.txt into DataFrame
+2024-06-03 12:57:21,948:INFO:Connecting to Snowflake to ingest data into EMPLOYEE
+2024-06-03 12:57:21,948:INFO:Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-03 12:57:21,948:INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-03 12:57:23,049:ERROR:Error ingesting data into EMPLOYEE: Missing optional dependency: pandas
+2024-06-03 12:57:23,049:INFO:closed
+2024-06-03 12:57:23,049:INFO:No async queries seem to be running, deleting session
+2024-06-03 13:16:53,562:INFO:Checking if pandas is available
+2024-06-03 13:16:53,562:INFO:Reading data from C:\\Users\\nikhi\\Downloads\\AVM_Project\\inbound_data\\employee.txt into DataFrame
+2024-06-03 13:16:53,562:INFO:Connecting to Snowflake to ingest data into EMPLOYEE
+2024-06-03 13:16:53,562:INFO:Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-03 13:16:53,562:INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-03 13:16:54,551:ERROR:Error ingesting data into EMPLOYEE: Missing optional dependency: pandas
+2024-06-03 13:16:54,551:INFO:closed
+2024-06-03 13:16:54,551:INFO:No async queries seem to be running, deleting session
+2024-06-03 13:18:03,381:INFO:Checking if pandas is available
+2024-06-03 13:18:03,381:INFO:Reading data from C:\\Users\\nikhi\\Downloads\\AVM_Project\\inbound_data\\employee.txt into DataFrame
+2024-06-03 13:18:03,381:INFO:Connecting to Snowflake to ingest data into EMPLOYEE
+2024-06-03 13:18:03,381:INFO:Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-03 13:18:03,381:INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-03 13:18:04,355:ERROR:Error ingesting data into EMPLOYEE: Missing optional dependency: pandas
+2024-06-03 13:18:04,355:INFO:closed
+2024-06-03 13:18:04,355:INFO:No async queries seem to be running, deleting session
+2024-06-03 13:41:09,028:INFO:Checking if pandas is available
+2024-06-03 13:41:09,028:INFO:Reading data from C:\\Users\\nikhi\\Downloads\\AVM_Project\\inbound_data\\employee.txt into DataFrame
+2024-06-03 13:41:09,044:INFO:Connecting to Snowflake to ingest data into EMPLOYEE
+2024-06-03 13:41:09,044:INFO:Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-03 13:41:09,044:INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-03 13:41:10,146:ERROR:Error ingesting data into EMPLOYEE: Missing optional dependency: pandas
+2024-06-03 13:41:10,146:INFO:closed
+2024-06-03 13:41:10,146:INFO:No async queries seem to be running, deleting session
+2024-06-09 21:16:50,523:INFO:Reading data from C:\\Users\\nikhi\\Downloads\\AVM_Project\\inbound_data\\department.txt into DataFrame
+2024-06-09 21:16:50,567:INFO:Connecting to Snowflake to ingest data into DEPARTMENT
+2024-06-09 21:16:50,567:INFO:Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 21:16:50,567:INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 21:16:53,415:ERROR:Error ingesting data into DEPARTMENT: Missing optional dependency: pandas
+2024-06-09 21:16:53,415:INFO:closed
+2024-06-09 21:16:53,431:INFO:No async queries seem to be running, deleting session
+2024-06-09 21:20:55,774:INFO:Starting data ingestion for table DEPARTMENT from file C:\\Users\\nikhi\\Downloads\\AVM_Project\\inbound_data\\department.txt
+2024-06-09 21:20:55,774:INFO:Reading data from C:\\Users\\nikhi\\Downloads\\AVM_Project\\inbound_data\\department.txt into DataFrame
+2024-06-09 21:20:55,774:INFO:Connecting to Snowflake to ingest data into DEPARTMENT
+2024-06-09 21:20:55,774:INFO:Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 21:20:55,774:INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 21:20:56,875:ERROR:Error ingesting data into DEPARTMENT: Missing optional dependency: pandas
+2024-06-09 21:20:56,875:INFO:closed
+2024-06-09 21:20:56,875:INFO:No async queries seem to be running, deleting session
+2024-06-09 21:28:02,305:INFO:Starting data ingestion for table DEPARTMENT from file C:\\Users\\nikhi\\Downloads\\AVM_Project\\inbound_data\\department.txt
+2024-06-09 21:28:02,305:INFO:Reading data from C:\\Users\\nikhi\\Downloads\\AVM_Project\\inbound_data\\department.txt into DataFrame
+2024-06-09 21:28:02,305:DEBUG:DataFrame Head:
+         Research  5  333445555  1988-05-22
+0  Administration  4  987654321  1995-05-22
+1    Headquarters  1  888665555  1981-05-22
+2           Sales  6  117987987  1980-05-22
+2024-06-09 21:28:02,305:INFO:Connecting to Snowflake to ingest data into DEPARTMENT
+2024-06-09 21:28:02,305:INFO:Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 21:28:02,305:DEBUG:connect
+2024-06-09 21:28:02,305:DEBUG:__config
+2024-06-09 21:28:02,305:INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 21:28:02,305:DEBUG:use_numpy: False
+2024-06-09 21:28:02,305:DEBUG:initialized
+2024-06-09 21:28:02,305:DEBUG:REST API object was created: mbcdvuu-ud48515.snowflakecomputing.com:443
+2024-06-09 21:28:02,305:DEBUG:authenticate
+2024-06-09 21:28:02,305:DEBUG:assertion content: *********
+2024-06-09 21:28:02,305:DEBUG:account=mbcdvuu-ud48515, user=NIKHIL07, database=P01_EMP, schema=EMP_RAW, warehouse=COMPUTE_WH, role=None, request_id=a2b51269-b471-46a6-a11a-b8c57c41236e
+2024-06-09 21:28:02,305:DEBUG:body['data']: {'CLIENT_APP_ID': 'PythonConnector', 'CLIENT_APP_VERSION': '3.10.1', 'SVN_REVISION': None, 'ACCOUNT_NAME': 'mbcdvuu-ud48515', 'LOGIN_NAME': 'NIKHIL07', 'CLIENT_ENVIRONMENT': {'APPLICATION': 'PythonConnector', 'OS': 'Windows', 'OS_VERSION': 'Windows-10-10.0.22631-SP0', 'PYTHON_VERSION': '3.11.4', 'PYTHON_RUNTIME': 'CPython', 'PYTHON_COMPILER': 'MSC v.1934 64 bit (AMD64)', 'OCSP_MODE': 'FAIL_OPEN', 'TRACING': 10, 'LOGIN_TIMEOUT': None, 'NETWORK_TIMEOUT': None, 'SOCKET_TIMEOUT': None}, 'SESSION_PARAMETERS': {'CLIENT_PREFETCH_THREADS': 4}}
+2024-06-09 21:28:02,305:DEBUG:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2024-06-09 21:28:02,305:DEBUG:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2024-06-09 21:28:02,305:DEBUG:Session status for SessionPool 'mbcdvuu-ud48515.snowflakecomputing.com', SessionPool 1/1 active sessions
+2024-06-09 21:28:02,305:DEBUG:remaining request timeout: N/A ms, retry cnt: 1
+2024-06-09 21:28:02,305:DEBUG:Request guid: 5b408dce-2f04-471f-9dcd-1fdbf81e7878
+2024-06-09 21:28:02,305:DEBUG:socket timeout: 60
+2024-06-09 21:28:02,305:DEBUG:Starting new HTTPS connection (1): mbcdvuu-ud48515.snowflakecomputing.com:443
+2024-06-09 21:28:03,154:DEBUG:OCSP Mode: FAIL_OPEN, OCSP response cache file name: None
+2024-06-09 21:28:03,241:DEBUG:cache directory: C:\Users\nikhi\AppData\Local\Snowflake\Caches
+2024-06-09 21:28:03,241:DEBUG:ocsp_response_cache_uri: file://C:/Users/nikhi/AppData/Local/Snowflake/Caches/ocsp_response_cache.json
+2024-06-09 21:28:03,241:DEBUG:OCSP_VALIDATION_CACHE size: 288
+2024-06-09 21:28:03,241:DEBUG:OCSP response cache server is enabled: http://ocsp.snowflakecomputing.com/ocsp_response_cache.json
+2024-06-09 21:28:03,241:DEBUG:OCSP dynamic cache server RETRY URL: None
+2024-06-09 21:28:03,241:DEBUG:validating certificate: mbcdvuu-ud48515.snowflakecomputing.com
+2024-06-09 21:28:03,241:DEBUG:# of certificates: 4
+2024-06-09 21:28:03,241:DEBUG:subject: OrderedDict([('common_name', '*.us-east-2.snowflakecomputing.com')]), issuer: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('common_name', 'Amazon RSA 2048 M02')])
+2024-06-09 21:28:03,241:DEBUG:subject: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('common_name', 'Amazon RSA 2048 M02')]), issuer: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('common_name', 'Amazon Root CA 1')])
+2024-06-09 21:28:03,248:DEBUG:subject: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('common_name', 'Amazon Root CA 1')]), issuer: OrderedDict([('country_name', 'US'), ('state_or_province_name', 'Arizona'), ('locality_name', 'Scottsdale'), ('organization_name', 'Starfield Technologies, Inc.'), ('common_name', 'Starfield Services Root Certificate Authority - G2')])
+2024-06-09 21:28:03,248:DEBUG:subject: OrderedDict([('country_name', 'US'), ('state_or_province_name', 'Arizona'), ('locality_name', 'Scottsdale'), ('organization_name', 'Starfield Technologies, Inc.'), ('common_name', 'Starfield Services Root Certificate Authority - G2')]), issuer: OrderedDict([('country_name', 'US'), ('organization_name', 'Starfield Technologies, Inc.'), ('organizational_unit_name', 'Starfield Class 2 Certification Authority')])
+2024-06-09 21:28:03,248:DEBUG:reading certificate bundle: C:\Users\nikhi\AppData\Local\Programs\Python\Python311\Lib\site-packages\certifi\cacert.pem
+2024-06-09 21:28:03,248:DEBUG:not found issuer_der: OrderedDict([('country_name', 'US'), ('organization_name', 'Starfield Technologies, Inc.'), ('organizational_unit_name', 'Starfield Class 2 Certification Authority')])
+2024-06-09 21:28:03,248:DEBUG:hit cache for subject: OrderedDict([('common_name', '*.us-east-2.snowflakecomputing.com')])
+2024-06-09 21:28:03,248:DEBUG:Verifying the attached certificate is signed by the issuer. Valid Not After: 2025-12-10 00:00:00+00:00
+2024-06-09 21:28:03,248:DEBUG:hit cache for subject: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('common_name', 'Amazon RSA 2048 M02')])
+2024-06-09 21:28:03,248:DEBUG:Verifying the attached certificate is signed by the issuer. Valid Not After: 2025-12-10 00:00:00+00:00
+2024-06-09 21:28:03,248:DEBUG:hit cache for subject: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('common_name', 'Amazon Root CA 1')])
+2024-06-09 21:28:03,248:DEBUG:Verifying the attached certificate is signed by the issuer. Valid Not After: 2025-05-07 12:00:00+00:00
+2024-06-09 21:28:03,248:DEBUG:hit cache for subject: OrderedDict([('country_name', 'US'), ('state_or_province_name', 'Arizona'), ('locality_name', 'Scottsdale'), ('organization_name', 'Starfield Technologies, Inc.'), ('common_name', 'Starfield Services Root Certificate Authority - G2')])
+2024-06-09 21:28:03,248:DEBUG:ok
+2024-06-09 21:28:03,453:DEBUG:https://mbcdvuu-ud48515.snowflakecomputing.com:443 "POST /session/v1/login-request?request_id=a2b51269-b471-46a6-a11a-b8c57c41236e&databaseName=P01_EMP&schemaName=EMP_RAW&warehouse=COMPUTE_WH&request_guid=5b408dce-2f04-471f-9dcd-1fdbf81e7878 HTTP/1.1" 200 1570
+2024-06-09 21:28:03,453:DEBUG:SUCCESS
+2024-06-09 21:28:03,453:DEBUG:Session status for SessionPool 'mbcdvuu-ud48515.snowflakecomputing.com', SessionPool 0/1 active sessions
+2024-06-09 21:28:03,453:DEBUG:ret[code] = None, after post request
+2024-06-09 21:28:03,453:DEBUG:completed authentication
+2024-06-09 21:28:03,453:DEBUG:token = ******
+2024-06-09 21:28:03,453:DEBUG:master_token = ******
+2024-06-09 21:28:03,453:DEBUG:id_token = NULL
+2024-06-09 21:28:03,453:DEBUG:mfa_token = NULL
+2024-06-09 21:28:03,453:DEBUG:cursor
+2024-06-09 21:28:03,453:INFO:Inserting data into DEPARTMENT
+2024-06-09 21:28:03,469:DEBUG:executing many SQLs/commands
+2024-06-09 21:28:03,469:DEBUG:rewriting INSERT query
+2024-06-09 21:28:03,469:DEBUG:parameter: ['Administration', 4, 987654321, '1995-05-22']
+2024-06-09 21:28:03,469:DEBUG:parameters: ("'Administration'", '4', '987654321', "'1995-05-22'")
+2024-06-09 21:28:03,469:DEBUG:parameter: ['Headquarters', 1, 888665555, '1981-05-22']
+2024-06-09 21:28:03,469:DEBUG:parameters: ("'Headquarters'", '1', '888665555', "'1981-05-22'")
+2024-06-09 21:28:03,469:DEBUG:parameter: ['Sales', 6, 117987987, '1980-05-22']
+2024-06-09 21:28:03,469:DEBUG:parameters: ("'Sales'", '6', '117987987', "'1980-05-22'")
+2024-06-09 21:28:03,469:DEBUG:executing SQL/command
+2024-06-09 21:28:03,469:DEBUG:query: [INSERT INTO DEPARTMENT (Research, 5, 333445555, 1988-05-22) VALUES ('Administrat...]
+2024-06-09 21:28:03,469:DEBUG:binding: [INSERT INTO DEPARTMENT (Research, 5, 333445555, 1988-05-22) VALUES ('Administrat...] with input=[None], processed=[{}]
+2024-06-09 21:28:03,469:DEBUG:sequence counter: 1
+2024-06-09 21:28:03,469:DEBUG:Request id: 0bef6d15-87ee-4910-b65d-7f62b815718b
+2024-06-09 21:28:03,469:DEBUG:running query [INSERT INTO DEPARTMENT (Research, 5, 333445555, 1988-05-22) VALUES ('Administrat...]
+2024-06-09 21:28:03,469:DEBUG:is_file_transfer: True
+2024-06-09 21:28:03,469:DEBUG:_cmd_query
+2024-06-09 21:28:03,469:DEBUG:serialize_to_dict() called
+2024-06-09 21:28:03,469:DEBUG:sql=[INSERT INTO DEPARTMENT (Research, 5, 333445555, 1988-05-22) VALUES ('Administrat...], sequence_id=[1], is_file_transfer=[False]
+2024-06-09 21:28:03,469:DEBUG:Session status for SessionPool 'mbcdvuu-ud48515.snowflakecomputing.com', SessionPool 1/1 active sessions
+2024-06-09 21:28:03,469:DEBUG:remaining request timeout: N/A ms, retry cnt: 1
+2024-06-09 21:28:03,469:DEBUG:Request guid: c0611525-f037-400c-8af3-3b5e24d207e7
+2024-06-09 21:28:03,469:DEBUG:socket timeout: 60
+2024-06-09 21:28:03,610:DEBUG:https://mbcdvuu-ud48515.snowflakecomputing.com:443 "POST /queries/v1/query-request?requestId=0bef6d15-87ee-4910-b65d-7f62b815718b&request_guid=c0611525-f037-400c-8af3-3b5e24d207e7 HTTP/1.1" 200 485
+2024-06-09 21:28:03,610:DEBUG:SUCCESS
+2024-06-09 21:28:03,610:DEBUG:Session status for SessionPool 'mbcdvuu-ud48515.snowflakecomputing.com', SessionPool 0/1 active sessions
+2024-06-09 21:28:03,610:DEBUG:ret[code] = 001003, after post request
+2024-06-09 21:28:03,610:DEBUG:Query id: 01b4e814-0001-e201-0005-d4ce0002d032
+2024-06-09 21:28:03,610:DEBUG:sfqid: 01b4e814-0001-e201-0005-d4ce0002d032
+2024-06-09 21:28:03,610:DEBUG:query execution done
+2024-06-09 21:28:03,610:DEBUG:{'data': {'internalError': False, 'errorCode': '001003', 'age': 0, 'sqlState': '42000', 'queryId': '01b4e814-0001-e201-0005-d4ce0002d032', 'line': -1, 'pos': -1, 'type': 'COMPILATION'}, 'code': '001003', 'message': "SQL compilation error:\nsyntax error line 1 at position 34 unexpected '5'.\nsyntax error line 1 at position 37 unexpected '333445555'.\nsyntax error line 1 at position 48 unexpected '1988'.", 'success': False, 'headers': None}
+2024-06-09 21:28:03,625:ERROR:Error ingesting data into DEPARTMENT: 001003 (42000): 01b4e814-0001-e201-0005-d4ce0002d032: SQL compilation error:
+syntax error line 1 at position 34 unexpected '5'.
+syntax error line 1 at position 37 unexpected '333445555'.
+syntax error line 1 at position 48 unexpected '1988'.
+2024-06-09 21:28:03,625:INFO:closed
+2024-06-09 21:28:03,625:DEBUG:Closing telemetry client.
+2024-06-09 21:28:03,625:INFO:No async queries seem to be running, deleting session
+2024-06-09 21:28:03,625:DEBUG:Session status for SessionPool 'mbcdvuu-ud48515.snowflakecomputing.com', SessionPool 1/1 active sessions
+2024-06-09 21:28:03,625:DEBUG:remaining request timeout: 5000 ms, retry cnt: 1
+2024-06-09 21:28:03,625:DEBUG:Request guid: a4ba6687-8784-4dbc-9b50-e445bac9266b
+2024-06-09 21:28:03,625:DEBUG:socket timeout: 60
+2024-06-09 21:28:03,782:DEBUG:https://mbcdvuu-ud48515.snowflakecomputing.com:443 "POST /session?delete=true&request_guid=a4ba6687-8784-4dbc-9b50-e445bac9266b HTTP/1.1" 200 76
+2024-06-09 21:28:03,782:DEBUG:SUCCESS
+2024-06-09 21:28:03,782:DEBUG:Session status for SessionPool 'mbcdvuu-ud48515.snowflakecomputing.com', SessionPool 0/1 active sessions
+2024-06-09 21:28:03,782:DEBUG:ret[code] = None, after post request
+2024-06-09 21:28:03,798:DEBUG:Session is closed
+2024-06-09 21:35:26,052:INFO:Starting data ingestion for table DEPARTMENT from file C:\\Users\\nikhi\\Downloads\\AVM_Project\\inbound_data\\department.txt
+2024-06-09 21:35:26,052:INFO:Reading data from C:\\Users\\nikhi\\Downloads\\AVM_Project\\inbound_data\\department.txt into DataFrame
+2024-06-09 21:35:26,052:DEBUG:DataFrame Head:
+   5        Research  333445555  1988-05-22
+0  4  Administration  987654321  1995-05-22
+1  1    Headquarters  888665555  1981-05-22
+2  6           Sales  117987987  1980-05-22
+2024-06-09 21:35:26,052:INFO:Connecting to Snowflake to ingest data into DEPARTMENT
+2024-06-09 21:35:26,052:INFO:Snowflake Connector for Python Version: 3.10.1, Python Version: 3.11.4, Platform: Windows-10-10.0.22631-SP0
+2024-06-09 21:35:26,052:DEBUG:connect
+2024-06-09 21:35:26,052:DEBUG:__config
+2024-06-09 21:35:26,052:INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-09 21:35:26,052:DEBUG:use_numpy: False
+2024-06-09 21:35:26,052:DEBUG:initialized
+2024-06-09 21:35:26,052:DEBUG:REST API object was created: mbcdvuu-ud48515.snowflakecomputing.com:443
+2024-06-09 21:35:26,052:DEBUG:authenticate
+2024-06-09 21:35:26,052:DEBUG:assertion content: *********
+2024-06-09 21:35:26,052:DEBUG:account=mbcdvuu-ud48515, user=NIKHIL07, database=P01_EMP, schema=EMP_RAW, warehouse=COMPUTE_WH, role=None, request_id=623cc7ab-a04a-41b4-9706-2851fac32009
+2024-06-09 21:35:26,052:DEBUG:body['data']: {'CLIENT_APP_ID': 'PythonConnector', 'CLIENT_APP_VERSION': '3.10.1', 'SVN_REVISION': None, 'ACCOUNT_NAME': 'mbcdvuu-ud48515', 'LOGIN_NAME': 'NIKHIL07', 'CLIENT_ENVIRONMENT': {'APPLICATION': 'PythonConnector', 'OS': 'Windows', 'OS_VERSION': 'Windows-10-10.0.22631-SP0', 'PYTHON_VERSION': '3.11.4', 'PYTHON_RUNTIME': 'CPython', 'PYTHON_COMPILER': 'MSC v.1934 64 bit (AMD64)', 'OCSP_MODE': 'FAIL_OPEN', 'TRACING': 10, 'LOGIN_TIMEOUT': None, 'NETWORK_TIMEOUT': None, 'SOCKET_TIMEOUT': None}, 'SESSION_PARAMETERS': {'CLIENT_PREFETCH_THREADS': 4}}
+2024-06-09 21:35:26,052:DEBUG:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2024-06-09 21:35:26,052:DEBUG:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2024-06-09 21:35:26,052:DEBUG:Session status for SessionPool 'mbcdvuu-ud48515.snowflakecomputing.com', SessionPool 1/1 active sessions
+2024-06-09 21:35:26,052:DEBUG:remaining request timeout: N/A ms, retry cnt: 1
+2024-06-09 21:35:26,052:DEBUG:Request guid: df7d3b1f-1326-48c0-a264-9dd5f6fc8e07
+2024-06-09 21:35:26,052:DEBUG:socket timeout: 60
+2024-06-09 21:35:26,052:DEBUG:Starting new HTTPS connection (1): mbcdvuu-ud48515.snowflakecomputing.com:443
+2024-06-09 21:35:26,916:DEBUG:OCSP Mode: FAIL_OPEN, OCSP response cache file name: None
+2024-06-09 21:35:27,010:DEBUG:cache directory: C:\Users\nikhi\AppData\Local\Snowflake\Caches
+2024-06-09 21:35:27,010:DEBUG:ocsp_response_cache_uri: file://C:/Users/nikhi/AppData/Local/Snowflake/Caches/ocsp_response_cache.json
+2024-06-09 21:35:27,010:DEBUG:OCSP_VALIDATION_CACHE size: 288
+2024-06-09 21:35:27,010:DEBUG:OCSP response cache server is enabled: http://ocsp.snowflakecomputing.com/ocsp_response_cache.json
+2024-06-09 21:35:27,010:DEBUG:OCSP dynamic cache server RETRY URL: None
+2024-06-09 21:35:27,010:DEBUG:validating certificate: mbcdvuu-ud48515.snowflakecomputing.com
+2024-06-09 21:35:27,010:DEBUG:# of certificates: 4
+2024-06-09 21:35:27,010:DEBUG:subject: OrderedDict([('common_name', '*.us-east-2.snowflakecomputing.com')]), issuer: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('common_name', 'Amazon RSA 2048 M02')])
+2024-06-09 21:35:27,010:DEBUG:subject: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('common_name', 'Amazon RSA 2048 M02')]), issuer: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('common_name', 'Amazon Root CA 1')])
+2024-06-09 21:35:27,010:DEBUG:subject: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('common_name', 'Amazon Root CA 1')]), issuer: OrderedDict([('country_name', 'US'), ('state_or_province_name', 'Arizona'), ('locality_name', 'Scottsdale'), ('organization_name', 'Starfield Technologies, Inc.'), ('common_name', 'Starfield Services Root Certificate Authority - G2')])
+2024-06-09 21:35:27,010:DEBUG:subject: OrderedDict([('country_name', 'US'), ('state_or_province_name', 'Arizona'), ('locality_name', 'Scottsdale'), ('organization_name', 'Starfield Technologies, Inc.'), ('common_name', 'Starfield Services Root Certificate Authority - G2')]), issuer: OrderedDict([('country_name', 'US'), ('organization_name', 'Starfield Technologies, Inc.'), ('organizational_unit_name', 'Starfield Class 2 Certification Authority')])
+2024-06-09 21:35:27,010:DEBUG:reading certificate bundle: C:\Users\nikhi\AppData\Local\Programs\Python\Python311\Lib\site-packages\certifi\cacert.pem
+2024-06-09 21:35:27,010:DEBUG:not found issuer_der: OrderedDict([('country_name', 'US'), ('organization_name', 'Starfield Technologies, Inc.'), ('organizational_unit_name', 'Starfield Class 2 Certification Authority')])
+2024-06-09 21:35:27,010:DEBUG:hit cache for subject: OrderedDict([('common_name', '*.us-east-2.snowflakecomputing.com')])
+2024-06-09 21:35:27,010:DEBUG:Verifying the attached certificate is signed by the issuer. Valid Not After: 2025-12-10 00:00:00+00:00
+2024-06-09 21:35:27,010:DEBUG:hit cache for subject: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('common_name', 'Amazon RSA 2048 M02')])
+2024-06-09 21:35:27,010:DEBUG:Verifying the attached certificate is signed by the issuer. Valid Not After: 2025-12-10 00:00:00+00:00
+2024-06-09 21:35:27,010:DEBUG:hit cache for subject: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('common_name', 'Amazon Root CA 1')])
+2024-06-09 21:35:27,010:DEBUG:Verifying the attached certificate is signed by the issuer. Valid Not After: 2025-05-07 12:00:00+00:00
+2024-06-09 21:35:27,010:DEBUG:hit cache for subject: OrderedDict([('country_name', 'US'), ('state_or_province_name', 'Arizona'), ('locality_name', 'Scottsdale'), ('organization_name', 'Starfield Technologies, Inc.'), ('common_name', 'Starfield Services Root Certificate Authority - G2')])
+2024-06-09 21:35:27,010:DEBUG:ok
+2024-06-09 21:35:27,277:DEBUG:https://mbcdvuu-ud48515.snowflakecomputing.com:443 "POST /session/v1/login-request?request_id=623cc7ab-a04a-41b4-9706-2851fac32009&databaseName=P01_EMP&schemaName=EMP_RAW&warehouse=COMPUTE_WH&request_guid=df7d3b1f-1326-48c0-a264-9dd5f6fc8e07 HTTP/1.1" 200 1574
+2024-06-09 21:35:27,277:DEBUG:SUCCESS
+2024-06-09 21:35:27,277:DEBUG:Session status for SessionPool 'mbcdvuu-ud48515.snowflakecomputing.com', SessionPool 0/1 active sessions
+2024-06-09 21:35:27,277:DEBUG:ret[code] = None, after post request
+2024-06-09 21:35:27,277:DEBUG:completed authentication
+2024-06-09 21:35:27,277:DEBUG:token = ******
+2024-06-09 21:35:27,277:DEBUG:master_token = ******
+2024-06-09 21:35:27,277:DEBUG:id_token = NULL
+2024-06-09 21:35:27,277:DEBUG:mfa_token = NULL
+2024-06-09 21:35:27,277:DEBUG:cursor
+2024-06-09 21:35:27,277:INFO:Inserting data into DEPARTMENT
+2024-06-09 21:35:27,277:DEBUG:executing many SQLs/commands
+2024-06-09 21:35:27,277:DEBUG:rewriting INSERT query
+2024-06-09 21:35:27,277:DEBUG:parameter: [4, 'Administration', 987654321, '1995-05-22']
+2024-06-09 21:35:27,277:DEBUG:parameters: ('4', "'Administration'", '987654321', "'1995-05-22'")
+2024-06-09 21:35:27,277:DEBUG:parameter: [1, 'Headquarters', 888665555, '1981-05-22']
+2024-06-09 21:35:27,277:DEBUG:parameters: ('1', "'Headquarters'", '888665555', "'1981-05-22'")
+2024-06-09 21:35:27,277:DEBUG:parameter: [6, 'Sales', 117987987, '1980-05-22']
+2024-06-09 21:35:27,277:DEBUG:parameters: ('6', "'Sales'", '117987987', "'1980-05-22'")
+2024-06-09 21:35:27,277:DEBUG:executing SQL/command
+2024-06-09 21:35:27,277:DEBUG:query: [INSERT INTO DEPARTMENT (5, Research, 333445555, 1988-05-22) VALUES (4, 'Administ...]
+2024-06-09 21:35:27,277:DEBUG:binding: [INSERT INTO DEPARTMENT (5, Research, 333445555, 1988-05-22) VALUES (4, 'Administ...] with input=[None], processed=[{}]
+2024-06-09 21:35:27,277:DEBUG:sequence counter: 1
+2024-06-09 21:35:27,277:DEBUG:Request id: 223e2831-ddd3-4eb7-9902-ac07f9ecc74b
+2024-06-09 21:35:27,277:DEBUG:running query [INSERT INTO DEPARTMENT (5, Research, 333445555, 1988-05-22) VALUES (4, 'Administ...]
+2024-06-09 21:35:27,277:DEBUG:is_file_transfer: True
+2024-06-09 21:35:27,277:DEBUG:_cmd_query
+2024-06-09 21:35:27,277:DEBUG:serialize_to_dict() called
+2024-06-09 21:35:27,277:DEBUG:sql=[INSERT INTO DEPARTMENT (5, Research, 333445555, 1988-05-22) VALUES (4, 'Administ...], sequence_id=[1], is_file_transfer=[False]
+2024-06-09 21:35:27,277:DEBUG:Session status for SessionPool 'mbcdvuu-ud48515.snowflakecomputing.com', SessionPool 1/1 active sessions
+2024-06-09 21:35:27,277:DEBUG:remaining request timeout: N/A ms, retry cnt: 1
+2024-06-09 21:35:27,277:DEBUG:Request guid: 3e11ce46-0765-4d55-a060-43e3fca6682a
+2024-06-09 21:35:27,277:DEBUG:socket timeout: 60
+2024-06-09 21:35:27,435:DEBUG:https://mbcdvuu-ud48515.snowflakecomputing.com:443 "POST /queries/v1/query-request?requestId=223e2831-ddd3-4eb7-9902-ac07f9ecc74b&request_guid=3e11ce46-0765-4d55-a060-43e3fca6682a HTTP/1.1" 200 427
+2024-06-09 21:35:27,435:DEBUG:SUCCESS
+2024-06-09 21:35:27,435:DEBUG:Session status for SessionPool 'mbcdvuu-ud48515.snowflakecomputing.com', SessionPool 0/1 active sessions
+2024-06-09 21:35:27,435:DEBUG:ret[code] = 001003, after post request
+2024-06-09 21:35:27,435:DEBUG:Query id: 01b4e81b-0001-e1ff-0005-d4ce00036026
+2024-06-09 21:35:27,435:DEBUG:sfqid: 01b4e81b-0001-e1ff-0005-d4ce00036026
+2024-06-09 21:35:27,435:DEBUG:query execution done
+2024-06-09 21:35:27,435:DEBUG:{'data': {'internalError': False, 'errorCode': '001003', 'age': 0, 'sqlState': '42000', 'queryId': '01b4e81b-0001-e1ff-0005-d4ce00036026', 'line': -1, 'pos': -1, 'type': 'COMPILATION'}, 'code': '001003', 'message': "SQL compilation error:\nsyntax error line 1 at position 24 unexpected '5'.\nsyntax error line 1 at position 60 unexpected 'VALUES'.", 'success': False, 'headers': None}
+2024-06-09 21:35:27,459:ERROR:Error ingesting data into DEPARTMENT: 001003 (42000): 01b4e81b-0001-e1ff-0005-d4ce00036026: SQL compilation error:
+syntax error line 1 at position 24 unexpected '5'.
+syntax error line 1 at position 60 unexpected 'VALUES'.
+2024-06-09 21:35:27,459:INFO:closed
+2024-06-09 21:35:27,459:DEBUG:Closing telemetry client.
+2024-06-09 21:35:27,459:INFO:No async queries seem to be running, deleting session
+2024-06-09 21:35:27,459:DEBUG:Session status for SessionPool 'mbcdvuu-ud48515.snowflakecomputing.com', SessionPool 1/1 active sessions
+2024-06-09 21:35:27,459:DEBUG:remaining request timeout: 5000 ms, retry cnt: 1
+2024-06-09 21:35:27,460:DEBUG:Request guid: e22b6830-29d7-4fdf-8c30-ad32a147dd66
+2024-06-09 21:35:27,460:DEBUG:socket timeout: 60
+2024-06-09 21:35:27,532:DEBUG:https://mbcdvuu-ud48515.snowflakecomputing.com:443 "POST /session?delete=true&request_guid=e22b6830-29d7-4fdf-8c30-ad32a147dd66 HTTP/1.1" 200 76
+2024-06-09 21:35:27,532:DEBUG:SUCCESS
+2024-06-09 21:35:27,532:DEBUG:Session status for SessionPool 'mbcdvuu-ud48515.snowflakecomputing.com', SessionPool 0/1 active sessions
+2024-06-09 21:35:27,532:DEBUG:ret[code] = None, after post request
+2024-06-09 21:35:27,532:DEBUG:Session is closed
